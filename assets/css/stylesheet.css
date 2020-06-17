@@ -3,98 +3,98 @@
     font-family: Futura PT;
     font-weight: 300;
     font-size: normal;
-    src: url("assets/fonts/FuturaPTLight.otf") format("opentype");
+    src: url("../fonts/FuturaPTLight.otf") format("opentype");
 }
 @font-face {
     font-family: Futura PT;
     font-weight: 300;
     font-style: italic;
-    src: url("assets/fonts/FuturaPTLightOblique.otf") format("opentype");
+    src: url("../fonts/FuturaPTLightOblique.otf") format("opentype");
 }
 @font-face {
     font-family: Futura PT;
     font-weight: 400;
     font-style: normal;
-    src: url("assets/fonts/FuturaPTBook.otf") format("opentype");
+    src: url("../fonts/FuturaPTBook.otf") format("opentype");
 }
 @font-face {
     font-family: Futura PT;
     font-weight: 400;
     font-style: italic;
-    src: url("assets/fonts/FuturaPTBookOblique.otf") format("opentype");
+    src: url("../fonts/FuturaPTBookOblique.otf") format("opentype");
 }
 @font-face {
     font-family: Futura PT;
     font-weight: 500;
     font-style: normal;
-    src: url("assets/fonts/FuturaPTMedium.otf") format("opentype");
+    src: url("../fonts/FuturaPTMedium.otf") format("opentype");
 }
 @font-face {
     font-family: Futura PT;
     font-weight: 500;
     font-style: italic;
-    src: url("assets/fonts/FuturaPTMediumOblique.otf") format("opentype");
+    src: url("../fonts/FuturaPTMediumOblique.otf") format("opentype");
 }
 @font-face {
     font-family: Futura PT;
     font-weight: 600;
     font-style: normal;
-    src: url("assets/fonts/FuturaPTDemi.otf") format("opentype");
+    src: url("../fonts/FuturaPTDemi.otf") format("opentype");
 }
 @font-face {
     font-family: Futura PT;
     font-weight: 600;
     font-style: italic;
-    src: url("assets/fonts/FuturaPTDemiOblique.otf") format("opentype");
+    src: url("../fonts/FuturaPTDemiOblique.otf") format("opentype");
 }
 @font-face {
     font-family: Futura PT;
     font-weight: 700;
     font-style: normal;
-    src: url("assets/fonts/FuturaPTBold.otf") format("opentype");
+    src: url("../fonts/FuturaPTBold.otf") format("opentype");
 }
 @font-face {
     font-family: Futura PT;
     font-weight: 700;
     font-style: italic;
-    src: url("assets/fonts/FuturaPTBoldOblique.otf") format("opentype");
+    src: url("../fonts/FuturaPTBoldOblique.otf") format("opentype");
 }
 @font-face {
     font-family: Futura PT;
     font-weight: 800;
     font-style: normal;
-    src: url("assets/fonts/FuturaPTExtraBold.otf") format("opentype");
+    src: url("../fonts/FuturaPTExtraBold.otf") format("opentype");
 }
 @font-face {
     font-family: Futura PT;
     font-weight: 800;
     font-style: italic;
-    src: url("assets/fonts/FuturaPTExtraBoldOblique.otf") format("opentype");
+    src: url("../fonts/FuturaPTExtraBoldOblique.otf") format("opentype");
 }
 @font-face {
     font-family: Futura PT;
     font-weight: 900;
     font-style: normal;
-    src: url("assets/fonts/FuturaPTHeavy.otf") format("opentype");
+    src: url("../fonts/FuturaPTHeavy.otf") format("opentype");
 }
 @font-face {
     font-family: Futura PT;
     font-weight: 900;
     font-style: italic;
-    src: url("assets/fonts/FuturaPTHeavyOblique.otf") format("opentype");
+    src: url("../fonts/FuturaPTHeavyOblique.otf") format("opentype");
 }
 /* DANK MONO */
 @font-face {
     font-family: Dank Mono NF;
     font-weight: 400;
     font-style: normal;
-    src: url("assets/fonts/Dank Mono Regular Nerd Font Complete.otf") format("opentype");
+    src: url("../fonts/Dank Mono Regular Nerd Font Complete.otf") format("opentype");
 }
 @font-face {
     font-family: Dank Mono NF;
     font-weight: 400;
     font-style: italic;
-    src: url("assets/fonts/Dank Mono Italic Nerd Font Complete.otf") format("opentype");
+    src: url("../fonts/Dank Mono Italic Nerd Font Complete.otf") format("opentype");
 }
 /* Animations */
 .fade-in {
