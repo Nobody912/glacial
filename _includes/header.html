@@ -1,0 +1,33 @@
+<div>
+    <div class="row">
+        <div class="column">
+            <t1 style="text-align: top;">{{ site.title }}</t1>
+        </div>
+        <div class="column">
+            <ul>
+                {% for item in site.data.navbar %}
+                    <li>
+                        <a style="text-align: top;" href="{{ item.link }}">
+                            <m1>
+                                {{ item.name }}
+                            </m1>
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+    <st1 id="splash"></st1>
+    <script>
+        var splashArray = ["猴脑狗汪汪叫！",
+                           "The sun is a deadly laser!",
+                           "Splash text!",
+                           "我不会说中文！",
+                           "Cool. Cool cool cool.",
+                           "This font is NOT web-safe",
+                           "d174226fcc7a32c3e3bb1ab43e7fde035701d9682840345484d34d6ad667e16b"];
+        document.getElementById("splash").innerHTML = splashArray[Math.floor(Math.random() * splashArray.length)];
+    </script>
+    <br>
+    <hr class="roll">
+</div>
