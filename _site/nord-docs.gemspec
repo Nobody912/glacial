@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "nord-docs"
-  spec.version       = "0.1.4"
+  spec.version       = "0.1.5"
   spec.authors       = ["Nobody912"]
   spec.email         = ["41035180+Nobody912@users.noreply.github.com"]
 
@@ -12,5 +12,5 @@ Gem::Specification.new do |spec|
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README|_config\.yml)!i) }
 
-  spec.add_runtime_dependency "jekyll", "~> 4.1"
+  spec.add_runtime_dependency 'github-pages'
 end
