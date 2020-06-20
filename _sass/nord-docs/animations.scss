@@ -1,7 +1,7 @@
 /* ANIMATIONS */
 /* Fade-In */
 .fade-in {
-    animation: fadeIn ease-in-out 1s;
+    animation: fadeIn ease-in-out 0.5s;
 }
 @keyframes fadeIn {
     0% {
@@ -14,7 +14,7 @@
 
 /* Roll-out for <hr> */
 .roll {
-    animation: rollOut ease 1s;
+    animation: rollOut ease 0.5s;
 }
 @keyframes rollOut {
     from {

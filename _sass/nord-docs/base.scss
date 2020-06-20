@@ -6,11 +6,11 @@
 
 body {
     background-color: var(--background-color);
-    transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
+    transition: background 0.25s ease-in-out, color 0.25s ease-in-out;
 }
 
 h1, h2, h3, h4 {
-    font-family: Futura PT, Arial, Helvetica, sans-serif;
+    font-family: var(--heading-font-family);
     color: var(--heading-color);
     text-transform: uppercase;
 }
@@ -36,14 +36,14 @@ h4 {
 }
 
 p {
-    font-family: Dank Mono NF;
+    font-family: var(--body-font-family);
     font-weight: 400;
     font-size: 1em;
     color: var(--foreground-color);
 }
 
 li {
-    font-family: Dank Mono NF;
+    font-family: var(--body-font-family);
     font-weight: 400;
     font-size: 1em;
     margin-left: 2em;
