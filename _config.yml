@@ -17,8 +17,8 @@ baseurl: /nord-docs
 menu:
   - name: Home
     link: /
-    icon: fas fa-home
   - name: Contact
     link: /contact
-    icon: far fa-id-card
+  - name: Test
+    link: /test
 
