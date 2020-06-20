@@ -1,0 +1,23 @@
+code {
+    border-radius: 0.25em;
+}
+
+.hljs {
+    background-color: var(--code-block-bg-color);
+}
+
+.hljs,
+.hljs-subst,
+.hljs-params,
+.hljs-attribute,
+.hljs-variable,
+.hljs-template-variable {
+    color: var(--code-block-color);
+}
+
+.highlighter-rouge {
+    color: var(--code-block-color);
+    background-color: var(--code-block-bg-color);
+    border-radius: 0.25em;
+    padding: 0 0.25em 0 0.25em;
+}

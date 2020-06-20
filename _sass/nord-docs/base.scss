@@ -63,14 +63,6 @@ blockquote {
     border-left: 0.25em solid var(--heading-color);
 }
 
-code {
-    border-radius: 0.25em;
-}
-
-.hljs {
-    background: var(--code-block-color);
-}
-
 a:link {
     color: #81a1c1;
     transition: 0.2s;

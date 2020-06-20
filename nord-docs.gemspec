@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "nord-docs"
-  spec.version       = "0.1.9"
+  spec.version       = "0.9.2"
   spec.authors       = ["Nobody912"]
   spec.email         = ["41035180+Nobody912@users.noreply.github.com"]
 

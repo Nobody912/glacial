@@ -1,6 +1,5 @@
 # General
 title: NORD-DOCS
-tagline: Notes in Nord.
 author:
   name: GitHub User
   email: your-email@domain.com
@@ -10,8 +9,10 @@ description: > # this means to ignore newlines until "show_excerpts:"
 # File Details
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+highlighter: rouge
 
 baseurl: /nord-docs
+
 
 menu:
   - name: Home
