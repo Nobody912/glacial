@@ -4,6 +4,7 @@ t1 {
     font-size: 4em;
     text-transform: uppercase;
     color: var(--heading-color);
+    
 }
 
 m1 {
@@ -18,3 +19,16 @@ m1 {
     opacity: 50%;
     transition: opacity 0.25s ease;
 }
+
+@media screen and (min-width: 601px) {
+    t1 {
+        font-size: 4em;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    t1 {
+        font-size: 8vw;
+    }
+  }
