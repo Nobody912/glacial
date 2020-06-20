@@ -16,4 +16,6 @@ Nord-Docs is an extremely simple single column Jekyll theme built with the Nord 
 * Lightly animated
 
 # CREDITS/RESOURCES
-* 
+* [<i class="fab fa-font-awesome"></i> FontAwesome](https://fontawesome.com/)
+* [<i class="fab fa-bootstrap"></i> Bootstrap](https://getbootstrap.com/)
+* [highlight.js](https://highlightjs.org/)

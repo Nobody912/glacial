@@ -1,8 +1,8 @@
 PATH
   remote: .
   specs:
-    nord-docs (0.1.5)
-      github-pages
+    nord-docs (0.1.9)
+      github-pages (~> 206)
 
 GEM
   remote: https://rubygems.org/
