@@ -1,0 +1,14 @@
+.theme-switch input[type="checkbox"],
+.theme-switch .checked {
+    display: none;
+}
+ 
+.theme-switch input[type="checkbox"]:checked ~ .checked
+{
+    display: inline-block;
+}
+ 
+.theme-switch input[type="checkbox"]:checked ~ .unchecked
+{ 
+    display: none;
+}

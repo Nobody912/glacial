@@ -1,232 +1,116 @@
-    /* FUTURA PT */
+/* ROBOTO */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* FUTURA PT */
 @font-face {
     font-family: Futura PT;
     font-weight: 300;
     font-size: normal;
     src: url("../fonts/FuturaPTLight.otf") format("opentype");
 }
+
 @font-face {
     font-family: Futura PT;
     font-weight: 300;
     font-style: italic;
     src: url("../fonts/FuturaPTLightOblique.otf") format("opentype");
 }
+
 @font-face {
     font-family: Futura PT;
     font-weight: 400;
     font-style: normal;
     src: url("../fonts/FuturaPTBook.otf") format("opentype");
 }
+
 @font-face {
     font-family: Futura PT;
     font-weight: 400;
     font-style: italic;
     src: url("../fonts/FuturaPTBookOblique.otf") format("opentype");
 }
+
 @font-face {
     font-family: Futura PT;
     font-weight: 500;
     font-style: normal;
     src: url("../fonts/FuturaPTMedium.otf") format("opentype");
 }
+
 @font-face {
     font-family: Futura PT;
     font-weight: 500;
     font-style: italic;
     src: url("../fonts/FuturaPTMediumOblique.otf") format("opentype");
 }
+
 @font-face {
     font-family: Futura PT;
     font-weight: 600;
     font-style: normal;
     src: url("../fonts/FuturaPTDemi.otf") format("opentype");
 }
+
 @font-face {
     font-family: Futura PT;
     font-weight: 600;
     font-style: italic;
     src: url("../fonts/FuturaPTDemiOblique.otf") format("opentype");
 }
+
 @font-face {
     font-family: Futura PT;
     font-weight: 700;
     font-style: normal;
     src: url("../fonts/FuturaPTBold.otf") format("opentype");
 }
+
 @font-face {
     font-family: Futura PT;
     font-weight: 700;
     font-style: italic;
     src: url("../fonts/FuturaPTBoldOblique.otf") format("opentype");
 }
+
 @font-face {
     font-family: Futura PT;
     font-weight: 800;
     font-style: normal;
     src: url("../fonts/FuturaPTExtraBold.otf") format("opentype");
 }
+
 @font-face {
     font-family: Futura PT;
     font-weight: 800;
     font-style: italic;
     src: url("../fonts/FuturaPTExtraBoldOblique.otf") format("opentype");
 }
+
 @font-face {
     font-family: Futura PT;
     font-weight: 900;
     font-style: normal;
     src: url("../fonts/FuturaPTHeavy.otf") format("opentype");
 }
+
 @font-face {
     font-family: Futura PT;
     font-weight: 900;
     font-style: italic;
     src: url("../fonts/FuturaPTHeavyOblique.otf") format("opentype");
 }
-/* DANK MONO */
+
+/* DANK MONO NF */
 @font-face {
     font-family: Dank Mono NF;
     font-weight: 400;
     font-style: normal;
     src: url("../fonts/Dank Mono Regular Nerd Font Complete.otf") format("opentype");
 }
+
 @font-face {
     font-family: Dank Mono NF;
     font-weight: 400;
     font-style: italic;
     src: url("../fonts/Dank Mono Italic Nerd Font Complete.otf") format("opentype");
-}
-/* Animations */
-.fade-in {
-    animation: fadeIn ease .5s;
-}
-@keyframes fadeIn {
-    0% {
-        opacity:0;
-    }
-    100% {
-        opacity:1;
-    }
-}
-.roll {
-    animation: rollOut ease .5s;
-}
-@keyframes rollOut {
-    from {
-        width: 0%;
-    }
-    to {
-        width: 100%;
-    }
-}
-/* Format Stuff  */
-body {
-    background-color: #2e3440;
-}
-h1, h2, h3, h4, t1, st1 {
-    margin: 0;
-    padding: 0;
-}
-h1, h2, h3, h4, t1 {
-    color: #81a1c1;
-}
-t1 {
-    font-family: Futura PT, Arial, Helvetica, sans-serif;
-    font-weight: 700;
-    font-size: 4em;
-}
-st1 {
-    font-family: Futura PT, Arial, Helvetica, sans-serif;
-    font-weight: 300;
-    font-style: italic;
-    font-size: 2em;
-    color: #d8dee9;
-}
-m1 {
-    font-family: Futura PT, Arial, Helvetica, sans-serif;
-    font-weight: 300;
-    font-style: italic;
-    font-size: 1.5em;
-    color: #d8dee9;
-    vertical-align: top;
-}
-h1 {
-    font-family: Futura PT, Arial, Helvetica, sans-serif;
-    font-weight: 700;
-    font-size: 2.5em;
-}
-h2 {
-    font-family: Futura PT, Arial, Helvetica, sans-serif;
-    font-weight: 700;
-    font-size: 2em;
-}
-h3 {
-    font-family: Futura PT, Arial, Helvetica, sans-serif;
-    font-weight: 700;
-    font-size: 1.5em;
-}
-h4 {
-    font-family: Futura PT, Arial, Helvetica, sans-serif;
-    font-weight: 700;
-    font-size: 1em;
-}
-p {
-    font-family: Dank Mono NF;
-    font-weight: 400;
-    font-size: 1em;
-    color: #d8dee9;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-hr {
-    color: #d8dee9;
-    width: 100%;
-    float: left;
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #2e3440;
-}
-li {
-    float: right;
-    vertical-align: top;
-}
-li a {
-    font-family: Futura PT, Arial, Helvetica, sans-serif;
-    font-weight: 500;
-    display: block;
-    text-align: center;
-    padding-left: 1.5em;
-    padding-right: 0;
-    text-decoration: none;
-}
-a:link {
-    color: #81a1c1;
-    transition: 0.2s;
-}
-a:visited {
-    color: #b48ead;
-}
-a:active {
-    color: #5e81ac;
-}
-.column {
-    float: left;
-    width: 50%;
-}
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-.body {
-    width: 75%;
-    padding: 0;
-}
-.main {
-    padding: 5%;
-    width: 90%;
 }

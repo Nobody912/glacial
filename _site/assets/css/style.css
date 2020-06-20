@@ -1,0 +1,236 @@
+/* ANIMATIONS */
+/* Fade-In */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.fade-in {
+  animation: fadeIn ease-in-out 1s; }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+/* Roll-out for <hr> */
+.roll {
+  animation: rollOut ease 1s; }
+
+@keyframes rollOut {
+  from {
+    width: 0%; }
+  to {
+    width: 100%; } }
+/* Base */
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  background-color: var(--background-color);
+  transition: background 0.5s ease-in-out, color 0.5s ease-in-out; }
+
+h1, h2, h3, h4 {
+  font-family: Futura PT, Arial, Helvetica, sans-serif;
+  color: var(--heading-color);
+  text-transform: uppercase; }
+
+h1 {
+  font-weight: 700;
+  font-size: 2.5em; }
+
+h2 {
+  font-weight: 700;
+  font-size: 2em; }
+
+h3 {
+  font-weight: 700;
+  font-size: 1.5em; }
+
+h4 {
+  font-weight: 700;
+  font-size: 1em; }
+
+p {
+  font-family: Dank Mono NF;
+  font-weight: 400;
+  font-size: 1em;
+  color: var(--foreground-color); }
+
+li {
+  font-family: Dank Mono NF;
+  font-weight: 400;
+  font-size: 1em;
+  margin-left: 2em;
+  color: var(--foreground-color); }
+
+hr {
+  width: 100%;
+  float: left;
+  border: 1px solid;
+  color: var(--foreground-color); }
+
+blockquote {
+  margin-left: 0em;
+  padding-left: 1em;
+  border-left: 0.25em solid var(--heading-color); }
+
+code {
+  border-radius: 0.25em; }
+
+.hljs {
+  background: var(--code-block-color); }
+
+a:link {
+  color: #81a1c1;
+  transition: 0.2s; }
+
+a:visited {
+  color: #81a1c1; }
+
+a:hover {
+  color: #5e81ac; }
+
+a:active {
+  color: #5e81ac; }
+
+.body {
+  padding: 0 1.25em 0 1.25em;
+  margin: 0; }
+
+.main {
+  margin: 5%;
+  width: 90%; }
+
+/* ROBOTO */
+/* FUTURA PT */
+@font-face {
+  font-family: Futura PT;
+  font-weight: 300;
+  font-size: normal;
+  src: url("../fonts/FuturaPTLight.otf") format("opentype"); }
+@font-face {
+  font-family: Futura PT;
+  font-weight: 300;
+  font-style: italic;
+  src: url("../fonts/FuturaPTLightOblique.otf") format("opentype"); }
+@font-face {
+  font-family: Futura PT;
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/FuturaPTBook.otf") format("opentype"); }
+@font-face {
+  font-family: Futura PT;
+  font-weight: 400;
+  font-style: italic;
+  src: url("../fonts/FuturaPTBookOblique.otf") format("opentype"); }
+@font-face {
+  font-family: Futura PT;
+  font-weight: 500;
+  font-style: normal;
+  src: url("../fonts/FuturaPTMedium.otf") format("opentype"); }
+@font-face {
+  font-family: Futura PT;
+  font-weight: 500;
+  font-style: italic;
+  src: url("../fonts/FuturaPTMediumOblique.otf") format("opentype"); }
+@font-face {
+  font-family: Futura PT;
+  font-weight: 600;
+  font-style: normal;
+  src: url("../fonts/FuturaPTDemi.otf") format("opentype"); }
+@font-face {
+  font-family: Futura PT;
+  font-weight: 600;
+  font-style: italic;
+  src: url("../fonts/FuturaPTDemiOblique.otf") format("opentype"); }
+@font-face {
+  font-family: Futura PT;
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/FuturaPTBold.otf") format("opentype"); }
+@font-face {
+  font-family: Futura PT;
+  font-weight: 700;
+  font-style: italic;
+  src: url("../fonts/FuturaPTBoldOblique.otf") format("opentype"); }
+@font-face {
+  font-family: Futura PT;
+  font-weight: 800;
+  font-style: normal;
+  src: url("../fonts/FuturaPTExtraBold.otf") format("opentype"); }
+@font-face {
+  font-family: Futura PT;
+  font-weight: 800;
+  font-style: italic;
+  src: url("../fonts/FuturaPTExtraBoldOblique.otf") format("opentype"); }
+@font-face {
+  font-family: Futura PT;
+  font-weight: 900;
+  font-style: normal;
+  src: url("../fonts/FuturaPTHeavy.otf") format("opentype"); }
+@font-face {
+  font-family: Futura PT;
+  font-weight: 900;
+  font-style: italic;
+  src: url("../fonts/FuturaPTHeavyOblique.otf") format("opentype"); }
+/* DANK MONO NF */
+@font-face {
+  font-family: Dank Mono NF;
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/Dank Mono Regular Nerd Font Complete.otf") format("opentype"); }
+@font-face {
+  font-family: Dank Mono NF;
+  font-weight: 400;
+  font-style: italic;
+  src: url("../fonts/Dank Mono Italic Nerd Font Complete.otf") format("opentype"); }
+.fas, .far {
+  color: var(--foreground-color);
+  vertical-align: middle;
+  margin-top: 0.5em; }
+
+.fa-moon, .fa-sun {
+  padding: 0.25em 0.25em 0.25em 0.25em;
+  border: 2px solid var(--foreground-color);
+  border-radius: 0.25em;
+  margin: 0.25em 0 0.25em 0; }
+
+t1 {
+  font-family: Futura PT, Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 4em;
+  text-transform: uppercase;
+  color: var(--heading-color); }
+
+m1 {
+  font-family: Futura PT, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 1.5em;
+  vertical-align: top;
+  color: var(--foreground-color); }
+
+.nav-link:hover {
+  opacity: 50%;
+  transition: opacity 0.25s ease; }
+
+.theme-switch input[type="checkbox"],
+.theme-switch .checked {
+  display: none; }
+
+.theme-switch input[type="checkbox"]:checked ~ .checked {
+  display: inline-block; }
+
+.theme-switch input[type="checkbox"]:checked ~ .unchecked {
+  display: none; }
+
+:root {
+  --background-color: #eceff4;
+  --foreground-color: #2e3440;
+  --heading-color: #81a1c1;
+  --highlight-color: #8fbcbb;
+  --code-block-color: #2e3440; }
+
+[data-theme="dark"] {
+  --background-color: #2e3440;
+  --foreground-color: #d8dee9;
+  --heading-color: #81a1c1;
+  --highlight-color: #8fbcbb;
+  --code-block-color: #434c5e; }

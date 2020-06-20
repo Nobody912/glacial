@@ -1,0 +1,26 @@
+/* ANIMATIONS */
+/* Fade-In */
+.fade-in {
+    animation: fadeIn ease-in-out 1s;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Roll-out for <hr> */
+.roll {
+    animation: rollOut ease 1s;
+}
+@keyframes rollOut {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}

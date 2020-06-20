@@ -1,0 +1,98 @@
+/* Base */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--background-color);
+    transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+h1, h2, h3, h4 {
+    font-family: Futura PT, Arial, Helvetica, sans-serif;
+    color: var(--heading-color);
+    text-transform: uppercase;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 2.5em;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 2em;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+h4 {
+    font-weight: 700;
+    font-size: 1em;
+}
+
+p {
+    font-family: Dank Mono NF;
+    font-weight: 400;
+    font-size: 1em;
+    color: var(--foreground-color);
+}
+
+li {
+    font-family: Dank Mono NF;
+    font-weight: 400;
+    font-size: 1em;
+    margin-left: 2em;
+    color: var(--foreground-color);
+}
+
+hr {
+    width: 100%;
+    float: left;
+    border: 1px solid;
+    color: var(--foreground-color);
+}
+
+blockquote {
+    margin-left: 0em;
+    padding-left: 1em;
+    border-left: 0.25em solid var(--heading-color);
+}
+
+code {
+    border-radius: 0.25em;
+}
+
+.hljs {
+    background: var(--code-block-color);
+}
+
+a:link {
+    color: #81a1c1;
+    transition: 0.2s;
+}
+
+a:visited {
+    color: #81a1c1;
+}
+
+a:hover {
+    color: #5e81ac;
+}
+
+a:active {
+    color: #5e81ac;
+}
+.body {
+    padding: 0 1.25em 0 1.25em;
+    margin: 0;
+}
+
+.main {
+    margin: 5%;
+    width: 90%;
+}

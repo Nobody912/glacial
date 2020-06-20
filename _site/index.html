@@ -3,86 +3,94 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/assets/css/stylesheet.css">
-    <script src="https://kit.fontawesome.com/1729cccd5b.js" 
-    crossorigin="anonymous"></script>
+    <title>About</title>
+    
+    <!-- Font Awesome -->
+    <script src="/nord-docs/assets/js/font-awesome.js"></script>
+    
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
+    <!-- highlight.js -->
+    <link rel="stylesheet"
+    href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/styles/nord.min.css">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="/nord-docs/assets/css/style.css">
+
+    <script>hljs.initHighlightingOnLoad();</script>
+
     <script>
-        setTimeout(function(){ document.getElementById("body").style.display = "block"; }, 1000);
+        setTimeout(function(){ document.getElementById("delay").style.display = "block"; }, 1000);
     </script>
 </head><body>
-        <div class="main"><div>
-    <div class="row">
-        <div class="column">
-            <t1 style="text-align: top; line-height: 0.9em;">ERIK JI</t1>
-        </div>
-        <div class="column">
-            <ul>
-                
-                    <li>
-                        <a style="text-align: top;" href="/contact">
-                            <m1>
-                                Contact
-                            </m1>
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a style="text-align: top;" href="/portfolio">
-                            <m1>
-                                Portfolio
-                            </m1>
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a style="text-align: top;" href="/">
-                            <m1>
-                                About
-                            </m1>
-                        </a>
-                    </li>
-                
-            </ul>
-        </div>
+        <div class="main"><nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand">
+        <t1 style="line-height: 0.85em;">NORD-DOCS</t1>
+    </a>
+    <button style="border: 0;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/nord-docs/">
+                    <m1>
+                        Home
+                    </m1>
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/nord-docs/contact">
+                    <m1>
+                        Contact
+                    </m1>
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                <a class="nav-link">
+                    <label class="theme-switch" for="checkbox">
+                        <input type="checkbox" id="checkbox"/>
+                        <i class="fas fa-moon unchecked"></i>
+                        <i class="fas fa-sun checked"></i>
+                    </label>
+                </a>
+            </li>
+            <script src="assets/js/dark-mode.js"></script>
+        </ul>
     </div>
-    <st1 id="splash"></st1>
-    <script>
-        var splashArray = ["猴脑狗汪汪叫！",
-                           "The sun is a deadly laser!",
-                           "Splash text!",
-                           "我不会说中文！",
-                           "Cool. Cool cool cool.",
-                           "This font is NOT web-safe",
-                           "d174226fcc7a32c3e3bb1ab43e7fde035701d9682840345484d34d6ad667e16b"];
-        document.getElementById("splash").innerHTML = splashArray[Math.floor(Math.random() * splashArray.length)];
-    </script>
-    <br>
-    <hr class="roll">
-</div><br>
-            <div id="body" class="body fade-in" style="display:none;">
-                <h1 id="about-me">ABOUT ME</h1>
+</nav>
+<div class="body">
+                <hr class="roll" style="padding-top: 0; margin-top: 0;">
+                <div id="delay" class="fade-in" style="display:none;">
+                    <h1 id="about">ABOUT</h1>
+<p>Nord-Docs is an extremely simple single column Jekyll theme built with the Nord color scheme. This is perfect for basic blogs and documentation.</p>
 
-<p>My name is Erik Ji. I am a computer engineering major at the University of Illinois at Urbana-Champaign.
-<br />
-<br />
-I attended Lynbrook High School in San Jose, CA and graduated in 2020. During my time in high school, I developed interests in many areas, both software and hardware.
-<br />
-<br />
-I built my PC and learned about hardware interfacing, electronics maintenance, and higher-level operating system function. As a result of building a system, I have developed a taste for PC gaming.
-<br />
-<br />
-Programming has became one of primary pastimes, mainly based in cryptography and encryption. It is something I wish to pursue in the future.
-<br />
-<br />
-As a young child, I was fascinated by electronics. During my high school years, with an understanding of work safety, increased tooling skills, and finanical resources, I was able to experiment with DIY electronics and study basic electronics design. I’ve completed projects from as simple as an SBC-controlled LED to interfacing Soviet ICs and cold-cathode indicator tubes with modern hardware.
-<br />
-<br />
-Recently, I have taken great interest in mechanical keyboards: the clickity-clackity predecessors to the typical modern membrane keyboard. While my understanding behind the hardware and software that power modern mechanical keyboards, I like them. A lot. I have yet to find my endgame build.</p>
+<h1 id="features">FEATURES</h1>
+<ul>
+  <li>Bundled as a gem for easy installation</li>
+  <li>Easily customizable</li>
+  <li>Compatible with GitHub Pages</li>
+  <li>Comes in light and dark variations</li>
+  <li>Responsive navigation bar with customizable bar items</li>
+  <li>Lightly animated</li>
+</ul>
 
+<h1 id="creditsresources">CREDITS/RESOURCES</h1>
+<ul>
+  <li></li>
+</ul>
+
+                </div>
             </div>
         </div>
     </body>
 </html>
-
-
-

@@ -1,0 +1,12 @@
+.fas, .far {
+    color: var(--foreground-color);
+    vertical-align: middle;
+    margin-top: 0.5em;
+}
+
+.fa-moon, .fa-sun {
+    padding: 0.25em 0.25em 0.25em 0.25em;
+    border: 2px solid var(--foreground-color);
+    border-radius: 0.25em;
+    margin: 0.25em 0 0.25em 0;
+}
