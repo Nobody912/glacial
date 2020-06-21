@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    nord-docs (0.1.9)
+    nord-docs (0.9.2)
       github-pages (~> 206)
 
 GEM
