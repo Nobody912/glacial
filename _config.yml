@@ -1,20 +1,20 @@
 # General
-title: NORD-DOCS
+title: My Project
 author:
   name: GitHub User
   email: your-email@domain.com
 description: > # this means to ignore newlines until "show_excerpts:"
   Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 
+baseurl: /
+
+menu:
+  - name: Home
+    url: /
+
+
 # File Details
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 highlighter: rouge
 
-baseurl: /nord-docs
-
-menu:
-  - name: Home
-    url: /
-  - name: Test
-    url: /test
