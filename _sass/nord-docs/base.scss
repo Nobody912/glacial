@@ -57,8 +57,7 @@ ol {
 hr {
     width: 100%;
     float: left;
-    border: 1px solid;
-    color: var(--foreground-color);
+    border: 0.125em solid var(--foreground-color);
 }
 
 blockquote {

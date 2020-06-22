@@ -303,8 +303,7 @@ ol {
 hr {
   width: 100%;
   float: left;
-  border: 1px solid;
-  color: var(--foreground-color); }
+  border: 0.125em solid var(--foreground-color); }
 
 blockquote {
   margin-left: 0em;
@@ -438,7 +437,9 @@ code {
 .fas, .far, .wi {
   color: var(--foreground-color);
   vertical-align: middle;
-  margin-top: 0.5em; }
+  text-align: center;
+  margin-top: 0.5em;
+  width: 1.1em; }
 
 .fa-bars {
   font-size: 1.5em;
@@ -453,10 +454,13 @@ t1 {
 
 m1 {
   font-family: var(--heading-font-family);
-  font-weight: 400;
+  font-weight: 500;
   font-size: 1.5em;
   vertical-align: top;
   color: var(--foreground-color); }
+
+.active {
+  font-weight: 600; }
 
 .nav-link {
   text-align: center;

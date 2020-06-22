@@ -16,8 +16,6 @@ baseurl: /nord-docs
 
 menu:
   - name: Home
-    link: /
+    url: /
   - name: Test
-    link: /test
-  - name: Contact
-    link: /contact
+    url: /test
