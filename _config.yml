@@ -13,7 +13,6 @@ highlighter: rouge
 
 baseurl: /nord-docs
 
-
 menu:
   - name: Home
     url: /
