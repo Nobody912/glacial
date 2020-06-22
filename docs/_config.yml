@@ -1,0 +1,21 @@
+# General
+title: Nord-Docs
+author:
+  name: Erik Ji
+  email: erikjiv1.0@gmail.com
+description: > # this means to ignore newlines until "show_excerpts:"
+  Documentation for Nord-Docs
+
+remote_theme: Nobody912/nord-docs
+
+# File Details
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+baseurl: /nord-docs
+
+menu:
+  - name: Home
+    url: /
+  - name: Test
+    url: /test
