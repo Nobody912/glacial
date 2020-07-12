@@ -257,7 +257,8 @@
 /* Base */
 * {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  outline: none !important; }
 
 body {
   background-color: var(--background-color);
@@ -434,21 +435,27 @@ code {
   font-weight: 400;
   font-style: italic;
   src: url("../fonts/Dank Mono Italic.otf") format("opentype"); }
-.fas, .far, .wi {
+.fa-moon, .wi-day-sunny {
   color: var(--foreground-color);
-  vertical-align: middle;
-  text-align: center;
-  margin-top: 0.5em;
-  width: 1.1em; }
+  line-height: 0.5rem;
+  font-size: 1rem;
+  display: inline-block;
+  width: 2rem; }
 
 .fa-bars {
-  font-size: 1.5em;
-  padding: 0 0 0.75em 0; }
+  color: var(--foreground-color);
+  line-height: 1rem;
+  font-size: 1rem;
+  padding: 0.6rem 0.6rem 0.5rem 0.6rem; }
+
+.fa-bars:hover {
+  border-radius: 0.25rem;
+  background-color: var(--hover-color);
+  transition: 0.25s ease; }
 
 t1 {
   font-family: var(--heading-font-family);
   font-weight: 700;
-  font-size: 4em;
   text-transform: uppercase;
   color: var(--heading-color); }
 
@@ -457,30 +464,32 @@ m1 {
   font-weight: 300;
   font-size: 1.5em;
   vertical-align: top;
-  color: var(--foreground-color); }
+  color: var(--foreground-color);
+  padding: 0 0.25em 0.0625em 0.25em; }
+
+m1:hover {
+  border-radius: 0.125em;
+  background-color: var(--hover-color);
+  transition: 0.25s ease; }
+
+button.navbar-toggler {
+  margin: 0;
+  padding: 0; }
 
 .active {
   font-weight: 500; }
 
 .nav-link {
-  text-align: center;
-  padding: 0.25em 0 0.25em 0; }
+  line-height: 1em; }
 
 .nav-item {
-  padding: 0 0.25em 0 0.25em;
-  margin: 0.1em;
-  margin-left: 0.25em; }
+  text-align: center;
+  margin-left: 1em; }
 
-.nav-item:hover {
-  border-radius: 0.25em;
-  background-color: var(--hover-color);
-  transition: 0.25s ease; }
-
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 992px) {
   t1 {
     font-size: 4em; } }
-/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 991px) {
   t1 {
     font-size: 8vw; } }
 table, th, td {
@@ -496,6 +505,15 @@ th {
   background-color: var(--table-header-bg-color);
   color: var(--table-header-color); }
 
+label.theme-switch {
+  padding-bottom: 0.5rem;
+  margin: 0; }
+
+label:hover {
+  border-radius: 0.25rem;
+  background-color: var(--hover-color);
+  transition: 0.25s ease; }
+
 .theme-switch input[type="checkbox"],
 .theme-switch .checked {
   display: none; }
@@ -507,10 +525,9 @@ th {
   display: none; }
 
 .unchecked, .checked {
-  padding: 0.125em 0 0 0;
-  margin-top: 0.25em;
-  margin-bottom: 0em;
-  font-size: 1.25em; }
+  vertical-align: middle;
+  margin-top: 0.5em;
+  padding: 0 0.4rem 0 0.4rem; }
 
 :root {
   --background-color: #eceff4;

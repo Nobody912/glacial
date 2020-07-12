@@ -1,7 +1,6 @@
 t1 {
     font-family: var(--heading-font-family);
     font-weight: 700;
-    font-size: 4em;
     text-transform: uppercase;
     color: var(--heading-color);
     
@@ -13,6 +12,18 @@ m1 {
     font-size: 1.5em;
     vertical-align: top;
     color: var(--foreground-color);
+    padding: 0 0.25em 0.0625em 0.25em;
+}
+
+m1:hover {
+    border-radius: 0.125em;
+    background-color: var(--hover-color);
+    transition: 0.25s ease;
+}
+
+button.navbar-toggler {
+    margin: 0;
+    padding: 0;
 }
 
 .active {
@@ -20,31 +31,22 @@ m1 {
 }
 
 .nav-link {
-    text-align: center;
-    padding: 0.25em 0 0.25em 0;
+    line-height: 1em;
 }
 
 .nav-item {
-    padding: 0 0.25em 0 0.25em;
-    margin: 0.1em;
-    margin-left: 0.25em;
+    text-align: center;
+    margin-left: 1em;
 }
 
-.nav-item:hover {
-    border-radius: 0.25em;
-    background-color: var(--hover-color);
-    transition: 0.25s ease;
-}
-
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 992px) {
     t1 {
         font-size: 4em;
     }
-  }
-  
-  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-  @media screen and (max-width: 600px) {
+}
+
+@media screen and (max-width: 991px) {
     t1 {
         font-size: 8vw;
     }
-  }
+}
