@@ -1,22 +1,13 @@
 ---
 layout: default
-permalink: 
+permalink: /
 title: About
 ---
-# ABOUT
-Nord-Docs is an extremely simple single column Jekyll theme built with the Nord color scheme. This is perfect for basic blogs and documentation.
+<!--
+{% include inline-image.html image_left="https://unsplash.com/photos/W4o1oWx0k0g/download?force=true" text_left="" image_right="" text_right="Some more text that will appear to the left of the image." %}
+-->
 
-# FEATURES
-* Bundled as a gem for easy installation
-* Easily customizable 
-* Compatible with GitHub Pages
-* Comes in light and dark variations
-* Responsive navigation bar with customizable bar items
-* Lightly animated
+![](https://unsplash.com/photos/W4o1oWx0k0g/download?force=true#inline)
 
-# CREDITS/RESOURCES
-* [FontAwesome](https://fontawesome.com/)
-* [Weather Icons](https://erikflowers.github.io/weather-icons/)
-* [Bootstrap](https://getbootstrap.com/)
-* [highlight.js](https://highlightjs.org/)
-* [Nord Theme](https://nordtheme.com/)
+# Wow!
+You have successfully installed **NORD-THEME**! That's all. Much love.
