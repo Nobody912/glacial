@@ -1,24 +1,26 @@
 t1 {
     font-family: var(--heading-font-family);
     font-weight: 700;
+    font-size: 4rem;
     text-transform: uppercase;
     color: var(--heading-color);
-    
+    vertical-align: middle;
 }
 
 m1 {
     font-family: var(--heading-font-family);
     font-weight: 300;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     vertical-align: top;
-    color: var(--foreground-color);
-    padding: 0 0.25em 0.0625em 0.25em;
 }
 
-m1:hover {
-    border-radius: 0.125em;
-    background-color: var(--hover-color);
-    transition: 0.25s ease;
+.navbar {
+    background: var(--menu-background-color);
+}
+
+.navbar-collapse ul {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 button.navbar-toggler {
@@ -26,27 +28,34 @@ button.navbar-toggler {
     padding: 0;
 }
 
-.active {
-    font-weight: 500;
-}
-
-.nav-link {
+a.nav-link {
+    color: var(--foreground-color) !important;
     line-height: 1em;
+    padding: 0.25rem 0 0.25rem 0;
 }
 
 .nav-item {
     text-align: center;
-    margin-left: 1em;
 }
 
-@media screen and (min-width: 992px) {
-    t1 {
-        font-size: 4em;
+.nav-item:hover {
+    border-radius: 0.125rem;
+    background-color: var(--hover-color);
+    transition: 0.25s ease;
+}
+
+@media only screen and (min-width: 992px) {
+    .nav-item {
+        margin-left: 2rem;
     }
 }
 
-@media screen and (max-width: 991px) {
-    t1 {
-        font-size: 8vw;
+@media only screen and (max-width: 991px) {
+    .nav-item {
+        margin: 0;
     }
+}
+
+.active {
+    font-weight: 400;
 }

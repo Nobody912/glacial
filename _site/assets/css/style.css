@@ -262,9 +262,11 @@
 
 body {
   background-color: var(--background-color);
-  transition: background 0.25s ease-in-out, color 0.25s ease-in-out; }
+  word-wrap: break-word;
+  width: 100%;
+  padding: calc(70px + 5%) 5% 5% 5%; }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, sh1 {
   font-family: var(--heading-font-family);
   color: var(--heading-color);
   text-transform: uppercase; }
@@ -284,6 +286,10 @@ h3 {
 h4 {
   font-weight: 700;
   font-size: 1em; }
+
+sh1 {
+  font-weight: 300;
+  font-size: 1.5em; }
 
 p {
   font-family: var(--body-font-family);
@@ -313,7 +319,8 @@ blockquote {
 
 a:link {
   color: #81a1c1;
-  transition: 0.2s; }
+  transition: 0.2s;
+  text-decoration: none; }
 
 a:visited {
   color: #81a1c1; }
@@ -324,14 +331,22 @@ a:hover {
 a:active {
   color: #5e81ac; }
 
-.body {
-  padding: 0 1.25em 0 1.25em;
-  margin: 0; }
+br.card-spacer {
+  margin: 0;
+  padding: 0;
+  height: 5%; }
 
-.main {
-  margin: 5%;
-  width: 90%;
-  word-wrap: break-word; }
+p.disappear {
+  background: -webkit-linear-gradient(var(--foreground-color), var(--paper-color));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+.paper {
+  border-radius: 0.25rem;
+  background-color: var(--paper-color);
+  width: 100%;
+  padding: 5%;
+  display: inline-block; }
 
 code {
   border-radius: 0.25em; }
@@ -453,45 +468,64 @@ code {
   background-color: var(--hover-color);
   transition: 0.25s ease; }
 
+img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 0.25rem; }
+
+img[src*="#inline"] {
+  float: left;
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
+  width: calc(50% - 0.5rem); }
+
 t1 {
   font-family: var(--heading-font-family);
   font-weight: 700;
+  font-size: 4rem;
   text-transform: uppercase;
-  color: var(--heading-color); }
+  color: var(--heading-color);
+  vertical-align: middle; }
 
 m1 {
   font-family: var(--heading-font-family);
   font-weight: 300;
-  font-size: 1.5em;
-  vertical-align: top;
-  color: var(--foreground-color);
-  padding: 0 0.25em 0.0625em 0.25em; }
+  font-size: 1.5rem;
+  vertical-align: top; }
 
-m1:hover {
-  border-radius: 0.125em;
-  background-color: var(--hover-color);
-  transition: 0.25s ease; }
+.navbar {
+  background: var(--menu-background-color); }
+
+.navbar-collapse ul {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem; }
 
 button.navbar-toggler {
   margin: 0;
   padding: 0; }
 
-.active {
-  font-weight: 500; }
-
-.nav-link {
-  line-height: 1em; }
+a.nav-link {
+  color: var(--foreground-color) !important;
+  line-height: 1em;
+  padding: 0.25rem 0 0.25rem 0; }
 
 .nav-item {
-  text-align: center;
-  margin-left: 1em; }
+  text-align: center; }
 
-@media screen and (min-width: 992px) {
-  t1 {
-    font-size: 4em; } }
-@media screen and (max-width: 991px) {
-  t1 {
-    font-size: 8vw; } }
+.nav-item:hover {
+  border-radius: 0.125rem;
+  background-color: var(--hover-color);
+  transition: 0.25s ease; }
+
+@media only screen and (min-width: 992px) {
+  .nav-item {
+    margin-left: 2rem; } }
+@media only screen and (max-width: 991px) {
+  .nav-item {
+    margin: 0; } }
+.active {
+  font-weight: 400; }
+
 table, th, td {
   font-family: var(--body-font-family);
   border: 0.125em solid var(--foreground-color);
@@ -530,20 +564,24 @@ label:hover {
   padding: 0 0.4rem 0 0.4rem; }
 
 :root {
+  --paper-color: #ffffff;
   --background-color: #eceff4;
+  --menu-background-color: #e5e9f0;
   --foreground-color: #2e3440;
   --heading-color: #2e3440;
   --hover-color: #d8dee9;
   --highlight-color: #8fbcbb;
   --code-block-color: #2e3440;
-  --code-block-bg-color: #d8dee9;
+  --code-block-bg-color: #eceff4;
   --table-header-color: #2e3440;
   --table-header-bg-color: #d8dee9;
   --heading-font-family: Futura PT, Arial, Helvetica, sans-serif;
   --body-font-family: Dank Mono, 'Courier New', Courier, monospace; }
 
 [data-theme="dark"] {
-  --background-color: #2e3440;
+  --paper-color: #4c566a;
+  --background-color: #3b4252;
+  --menu-background-color: #2e3440;
   --foreground-color: #d8dee9;
   --heading-color: #d8dee9;
   --hover-color: #434c5e;

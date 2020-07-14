@@ -1,7 +1,7 @@
 ---
-title: About
 layout: default
 permalink: 
+title: About
 ---
 # ABOUT
 Nord-Docs is an extremely simple single column Jekyll theme built with the Nord color scheme. This is perfect for basic blogs and documentation.

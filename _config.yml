@@ -11,10 +11,17 @@ baseurl:
 menu:
   - name: Home
     url: /
+  - name: Test
+    url: /test
+  - name: Blogs
+    url: /blogs
 
 
 # File Details
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 highlighter: rouge
+
+# Blog
+show_excerpts: true
 

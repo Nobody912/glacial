@@ -1,18 +1,22 @@
 :root {
+    --paper-color: #ffffff;
     --background-color: #eceff4;
+    --menu-background-color: #e5e9f0;
     --foreground-color: #2e3440;
     --heading-color: #2e3440;
     --hover-color: #d8dee9;
     --highlight-color: #8fbcbb;
     --code-block-color: #2e3440;
-    --code-block-bg-color: #d8dee9;
+    --code-block-bg-color: #eceff4;
     --table-header-color: #2e3440;
     --table-header-bg-color: #d8dee9;
     --heading-font-family: Futura PT, Arial, Helvetica, sans-serif;
     --body-font-family: Dank Mono, 'Courier New', Courier, monospace;
 }
 [data-theme="dark"] {
-    --background-color: #2e3440;
+    --paper-color: #4c566a;
+    --background-color: #3b4252;
+    --menu-background-color: #2e3440;
     --foreground-color: #d8dee9;
     --heading-color: #d8dee9;
     --hover-color: #434c5e;
