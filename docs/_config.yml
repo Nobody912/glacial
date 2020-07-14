@@ -21,3 +21,6 @@ menu:
     url: /test
   - name: Blogs
     url: /blogs
+
+# Blog
+show_excerpts: true
