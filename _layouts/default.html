@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
     {%- include head.html -%}
-    {%- include header.html -%}
     <body>
+        {%- include header.html -%}
         <div class="paper">
             <div id="delay" class="fade-in" style="display:none;">
                 {{ content }}
             </div>
         </div>
+        {%- include footer.html -%}
     </body>
 </html>
