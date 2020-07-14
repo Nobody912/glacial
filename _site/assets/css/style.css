@@ -331,11 +331,6 @@ a:hover {
 a:active {
   color: #5e81ac; }
 
-br.card-spacer {
-  margin: 0;
-  padding: 0;
-  height: 5%; }
-
 p.disappear {
   background: -webkit-linear-gradient(var(--foreground-color), var(--paper-color));
   -webkit-background-clip: text;
