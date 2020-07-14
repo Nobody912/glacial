@@ -11,10 +11,6 @@ baseurl:
 menu:
   - name: Home
     url: /
-  - name: Test
-    url: /test
-  - name: Blogs
-    url: /blogs
 
 
 # File Details
