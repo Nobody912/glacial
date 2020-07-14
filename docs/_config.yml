@@ -19,3 +19,5 @@ menu:
     url: /
   - name: Test
     url: /test
+  - name: Blogs
+    url: /blogs
