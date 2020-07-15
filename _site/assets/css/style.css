@@ -317,6 +317,10 @@ blockquote {
   padding-left: 1em;
   border-left: 0.25em solid var(--heading-color); }
 
+footer {
+  margin: 1.2em 0 0 0;
+  padding: 0; }
+
 a:link {
   color: #81a1c1;
   transition: 0.2s;
@@ -342,10 +346,6 @@ p.disappear {
   width: 100%;
   padding: 5%;
   display: inline-block; }
-
-.footer {
-  padding-top: 5%;
-  margin: 0; }
 
 code {
   border-radius: 0.25em; }
