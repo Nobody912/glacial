@@ -1,5 +1,5 @@
 ---
-layout: note
+layout: default
 permalink: /test
 title: Test Document
 ---

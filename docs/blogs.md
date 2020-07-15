@@ -1,5 +1,5 @@
 ---
 title: Blogs
-layout: cards
+layout: blogs
 permalink: /blogs
 ---
