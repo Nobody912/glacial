@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    nord-docs (0.9.2)
+    glacial (1.1.0)
       github-pages (~> 206)
 
 GEM
@@ -248,7 +248,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  nord-docs!
+  glacial!
 
 BUNDLED WITH
    2.1.4
