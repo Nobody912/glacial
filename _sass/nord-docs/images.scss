@@ -1,11 +1,9 @@
 img {
-    max-width: 100%;
-    max-height: 100%;
-    border-radius: 0.25rem;
-}
-
-img[src*="#article"] {
     display: block;
-    margin: 0 auto;
-    width: 75%;
+    border-radius: 0.25rem;
+    width: 100%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    float: center;
 }
