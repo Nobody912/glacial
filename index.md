@@ -3,11 +3,10 @@ layout: default
 permalink: /
 title: About
 ---
-<!--
-{% include inline-image.html image_left="https://unsplash.com/photos/W4o1oWx0k0g/download?force=true" text_left="" image_right="" text_right="Some more text that will appear to the left of the image." %}
--->
+{% include crop-image.html height="16em" shift-right="0px" shift-down="16em" image_path="https://unsplash.com/photos/W4o1oWx0k0g/download?force=true" %}
 
-![](https://unsplash.com/photos/W4o1oWx0k0g/download?force=true#inline)
-
-# Wow!
+# NICE!
 You have successfully installed **NORD-THEME**! That's all. Much love.
+
+weir
+

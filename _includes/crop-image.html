@@ -1,0 +1,11 @@
+<style>
+    :root {
+        --shift-right: {{ include.shift-right }};
+        --shift-down: {{ include.shift-down }};
+        --height: {{ include.height }};
+    }
+  </style>
+
+<div style="max-height: var(--height);" class="crop-height">
+    <img style="margin-left: var(--shift-right); margin-top: calc(-1 * var(--shift-down));" class="scale" src="{{ include.image_path }}">
+</div>

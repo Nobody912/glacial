@@ -49,6 +49,10 @@ p {
     color: var(--foreground-color);
 }
 
+ul {
+    list-style-position:inside;
+}
+
 li {
     font-family: var(--body-font-family);
     font-weight: 400;
