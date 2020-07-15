@@ -4,5 +4,5 @@ permalink: /
 title: Home
 ---
 # NICE!
-You have successfully installed **NORD-THEME**! That's all. Much love.
+You have successfully installed **GLACIAL**! That's all. Much love.
 
