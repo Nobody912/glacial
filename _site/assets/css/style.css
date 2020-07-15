@@ -264,7 +264,7 @@ body {
   background-color: var(--background-color);
   word-wrap: break-word;
   width: 100%;
-  padding: calc(80px + 2.5%) 5% 5% 5%; }
+  padding: calc(64px + 2.5%) 5% 5% 5%; }
 
 h1, h2, h3, h4, sh1 {
   font-family: var(--heading-font-family);
@@ -481,7 +481,7 @@ img {
 t1 {
   font-family: var(--heading-font-family);
   font-weight: 700;
-  font-size: 4rem;
+  font-size: 2.5rem;
   text-transform: uppercase;
   color: var(--heading-color);
   vertical-align: middle; }
