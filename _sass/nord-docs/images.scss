@@ -4,23 +4,6 @@ img {
     border-radius: 0.25rem;
 }
 
-div.crop-height {
-    overflow: hidden;
-    margin-bottom: 16px;
-}
-
-img.scale {
-    display: block; 
-    width: 100%;
-    max-width: 100%;
-    height: auto !important;
-    display: block;
-    width: 100%;
-    max-width: 100%;
-    height: auto !important;
-    -ms-interpolation-mode: bicubic;
-}
-
 img[src*="#article"] {
     display: block;
     margin: 0 auto;
