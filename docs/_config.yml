@@ -19,7 +19,7 @@ menu:
     url: /
   - name: Test
     url: /test
-  - name: Blogs
+  - name: Blog
     url: /blog
 
 # Blog
