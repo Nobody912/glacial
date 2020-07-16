@@ -20,7 +20,7 @@ menu:
   - name: Test
     url: /test
   - name: Blogs
-    url: /blogs
+    url: /blog
 
 # Blog
 show_excerpts: true
