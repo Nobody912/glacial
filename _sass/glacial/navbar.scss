@@ -18,6 +18,15 @@ m1 {
     background: var(--menu-background-color);
 }
 
+.aurora-borealis {
+    background: var(--menu-background-color);
+    animation-name: background-rainbow;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+    animation-direction: repeat;
+    animation-timing-function: linear;
+}
+
 .navbar-collapse ul {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
