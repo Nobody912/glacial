@@ -1,13 +1,18 @@
-table, th, td {
+table,
+th,
+td {
     font-family: var(--body-font-family);
     border: 0.125em solid var(--foreground-color);
     color: var(--foreground-color);
 }
-th, td {
+
+th,
+td {
     padding: 0.25em;
 }
+
 th {
     font-style: italic;
     background-color: var(--table-header-bg-color);
-    color:  var(--table-header-color)
+    color: var(--table-header-color)
 }

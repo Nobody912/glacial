@@ -13,18 +13,17 @@ label:hover {
 .theme-switch .checked {
     display: none;
 }
- 
-.theme-switch input[type="checkbox"]:checked ~ .checked
-{
+
+.theme-switch input[type="checkbox"]:checked~.checked {
     display: inline-block;
 }
- 
-.theme-switch input[type="checkbox"]:checked ~ .unchecked
-{ 
+
+.theme-switch input[type="checkbox"]:checked~.unchecked {
     display: none;
 }
 
-.unchecked, .checked {
+.unchecked,
+.checked {
     vertical-align: middle;
     margin-top: 0.5em;
     padding: 0 0.4rem 0 0.4rem;

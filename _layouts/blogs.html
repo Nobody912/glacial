@@ -1,46 +1,48 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
-    {%- include head.html -%}
-    <body>
-        {%- include header.html -%}
+{%- include head.html -%}
+
+<body>
+    {%- include header.html -%}
+    <div style="text-align: center;">
+        <h1>{{ page.title }}</h1>
+    </div>
+    {% assign posts = site.posts %}
+    {% assign postcount = posts.size | minus: 1 %}
+    {%- if postcount > 0 -%}
+    {%- for post_index in (0..postcount) -%}
+    {% assign post = posts[post_index] %}
+    <div class="paper">
+        <h2>
+            <a href="{{ post.url | relative_url }}">
+                {{ post.title | escape }}
+            </a>
+        </h2>
+        <h4>{{ post.date | date: "%B %d, %Y" }}</h4>
+        {%- if site.show_excerpts -%}
+        <p class="disappear">
+            {{ post.excerpt | strip_html }}
+        </p>
         <div style="text-align: center;">
-            <h1>{{ page.title }}</h1>
+            <p>
+                <a href="{{ post.url | relative_url }}">
+                    Read More >
+                </a>
+            </p>
         </div>
-        {% assign posts = site.posts %}
-        {% assign postcount = posts.size | minus: 1 %}
-        {%- if postcount > 0 -%}
-            {%- for post_index in (0..postcount) -%}
-                {% assign post = posts[post_index] %}
-                <div class="paper">
-                    <h2>
-                        <a href="{{ post.url | relative_url }}">
-                                {{ post.title | escape }}
-                        </a>
-                    </h2>
-                    <h4>{{ post.date | date: "%B %d, %Y" }}</h4>
-                    {%- if site.show_excerpts -%}
-                    <p class="disappear">
-                        {{ post.excerpt | strip_html }}
-                    </p>
-                    <div style="text-align: center;">
-                        <p>
-                            <a href="{{ post.url | relative_url }}">
-                                Read More >
-                            </a>
-                        </p>
-                    </div>
-                    {%- endif -%}
-                </div> 
-                {%- if post_index < posts.size -%}
-                    <br>
-                    <br>
-                {%- endif -%}
-            {%- endfor -%}
-        {%- else -%}
-            <h2>
-                There are no posts.
-            </h2>
         {%- endif -%}
-        {%- include footer.html -%}
-    </body>
+    </div>
+    {%- if post_index < posts.size -%}
+    <br>
+    <br>
+    {%- endif -%}
+    {%- endfor -%}
+    {%- else -%}
+    <h2>
+        There are no posts.
+    </h2>
+    {%- endif -%}
+    {%- include footer.html -%}
+</body>
+
 </html>

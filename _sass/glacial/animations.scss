@@ -3,10 +3,12 @@
 .fade-in {
     animation: fadeIn ease-in-out 0.5s;
 }
+
 @keyframes fadeIn {
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
@@ -21,28 +23,8 @@
     from {
         width: 0%;
     }
+
     to {
         width: 100%;
-    }
-}
-
-@keyframes background-rainbow {
-	0% {
-		background: #bf616a88;
-	}
-	20% {
-		background: #d0877088;
-	}
-	40% {
-		background: #ebcb8b88;
-	}
-	60% {
-		background: #a3be8c88;
-	}
-	80% {
-		background: #81a1c188;
-    }
-    100% {
-        background: #b48ead88;
     }
 }
