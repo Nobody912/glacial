@@ -1,6 +1,6 @@
 ---
 title: Blog2
-layout: blog
+layout: portfolio
 category: blog2
 permalink: /blog2
 ---
