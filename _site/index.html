@@ -4,6 +4,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Home</title>
+    <link rel="preload" href="/assets/fonts/Futura%20PT/Bold/FuturaPTBold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/assets/fonts/Futura%20PT/Light/FuturaPTLight.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/assets/fonts/Dank%20Mono/Regular/Dank%20Mono%20Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/assets/fonts/Dank%20Mono/Italic/Dank%20Mono%20Italic.woff2" as="font" type="font/woff2" crossorigin>
 
     <!-- Font Awesome -->
     <script src="/assets/js/font-awesome.js"></script>
@@ -11,6 +15,7 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
         crossorigin="anonymous">
+    <!-- BS -> jQuery -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" crossorigin="anonymous">
     </script>
@@ -26,12 +31,6 @@
 
     <script>
         hljs.initHighlightingOnLoad();
-    </script>
-
-    <script>
-        setTimeout(function () {
-            document.getElementById("delay").style.display = "block";
-        }, 500);
     </script>
 </head><body><header>
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
@@ -69,12 +68,10 @@
     </nav>
 </header><h1>Home</h1>
     <div class="paper">
-        <div id="delay" class="fade-in" style="display:none;">
-            <h1 id="nice">NICE!</h1>
+        <h1 id="nice">NICE!</h1>
 <p>You have successfully installed <strong>GLACIAL</strong>! That’s all. Much love.</p>
 
 
-        </div>
     </div><footer>
     <p>
         GitHub User

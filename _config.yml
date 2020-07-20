@@ -21,3 +21,6 @@ highlighter: rouge
 # Blog
 show_excerpts: true
 
+sass:
+  style: compressed
+

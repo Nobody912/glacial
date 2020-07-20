@@ -2,8 +2,23 @@ img {
     display: block;
     border-radius: 0.25rem;
     width: 100%;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    float: center;
+    margin: 0 auto;
 }
+
+img.gallery {
+    height: 100%;
+    object-fit: cover;
+}
+
+div.gallery {
+    display: flex;
+    width: 100%;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+div.gallery-item {
+    width: 100%;
+}
+
+
