@@ -9,7 +9,7 @@
     </div>
     {% assign posts = site.posts %}
     {% assign postcount = posts.size | minus: 1 %}
-    {%- if postcount > 0 -%}
+    {%- if postcount >= 0 -%}
     {%- for post_index in (0..postcount) -%}
     {% assign post = posts[post_index] %}
     <div class="paper">
