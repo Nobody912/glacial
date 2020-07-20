@@ -102,6 +102,7 @@ p.disappear {
 }
 
 .paper {
+    display: flex;
     border-radius: 0.25rem;
     background-color: var(--paper-color);
     padding: 5%;
