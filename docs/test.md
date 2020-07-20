@@ -2,6 +2,18 @@
 layout: default
 permalink: /test
 title: Test Document
+
+mountains1:
+    - url: https://unsplash.com/photos/Y8lCoTRgHPE/download?force=true
+
+mountains2:
+    - url: https://unsplash.com/photos/Y8lCoTRgHPE/download?force=true
+    - url: https://unsplash.com/photos/iTYShprNeRE/download?force=true
+
+mountains3:
+    - url: https://unsplash.com/photos/Y8lCoTRgHPE/download?force=true
+    - url: https://unsplash.com/photos/iTYShprNeRE/download?force=true
+    - url: https://unsplash.com/photos/xfngap_DToE/download?force=true
 ---
 # <a name="top"></a>Markdown Test Page
 
@@ -166,27 +178,6 @@ Incididunt in culpa cupidatat mollit cillum qui proident sit. In cillum aliquip 
 
 Reprehenderit non eu quis in ad elit esse qui aute id [incididunt](#!) dolore cillum. Esse laboris consequat dolor anim exercitation tempor aliqua deserunt velit magna laboris. Culpa culpa minim duis amet mollit do quis amet commodo nulla irure.
 
-
-<div class="gallery">
-    <img class="gallery" src="https://unsplash.com/photos/Y8lCoTRgHPE/download?force=true">
-</div>
-<div class="gallery">
-    <div class="gallery-item">
-        <img class="gallery" src="https://unsplash.com/photos/Y8lCoTRgHPE/download?force=true">
-    </div>
-    <div class="gallery-item">
-        <img class="gallery" src="https://unsplash.com/photos/iTYShprNeRE/download?force=true">
-    </div>
-</div>
-<div class="gallery">
-    <div class="gallery-item">
-        <img class="gallery" src="https://unsplash.com/photos/Y8lCoTRgHPE/download?force=true">
-    </div>
-    <div class="gallery-item">
-        <img class="gallery" src="https://unsplash.com/photos/iTYShprNeRE/download?force=true">
-    </div>
-    <div class="gallery-item">
-        <img class="gallery" src="https://unsplash.com/photos/xfngap_DToE/download?force=true">
-    </div>
-</div>
-<script src="{{ "/assets/js/image-handler.js" | relative_url }}"></script>
+{% include gallery.html id="mountains1" %}
+{% include gallery.html id="mountains2" %}
+{% include gallery.html id="mountains3" %}

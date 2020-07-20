@@ -1,0 +1,10 @@
+{% assign galitems = page[include.id] %}
+
+<div class="gallery">
+    {% for img in galitems %}
+        <div class="gallery-item">
+            <img class="gallery" src="{{ img.url | relative_url }}">
+        </div>
+    {% endfor %}
+</div>
+<script src="{{ "/assets/js/image-handler.js" | relative_url }}"></script>
