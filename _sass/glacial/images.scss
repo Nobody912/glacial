@@ -5,6 +5,16 @@ img {
     margin: 0 auto;
 }
 
+img.inline-left {
+    float: left;
+    width: 50%;
+}
+
+img.inline-right {
+    float: right;
+    width: 50%;
+}
+
 img.gallery {
     height: 100%;
     object-fit: cover;
