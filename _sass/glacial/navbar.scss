@@ -9,9 +9,9 @@ t1 {
 
 m1 {
     font-family: var(--heading-font-family);
-    font-weight: 300;
+    font-weight: 400;
     font-size: 1.5rem;
-    vertical-align: top;
+    vertical-align: middle;
 }
 
 .navbar {
@@ -28,9 +28,13 @@ button.navbar-toggler {
     padding: 0;
 }
 
+.active {
+    font-weight: 500;
+}
+
 a.nav-link {
     color: var(--foreground-color) !important;
-    line-height: 1em;
+    line-height: 1.5rem;
     padding: 0.25rem 0 0.25rem 0;
 }
 
@@ -39,7 +43,7 @@ a.nav-link {
 }
 
 .nav-item:hover {
-    border-radius: 0.125rem;
+    border-radius: 0.25rem;
     background-color: var(--hover-color);
     transition: 0.25s ease;
 }
@@ -56,6 +60,3 @@ a.nav-link {
     }
 }
 
-.active {
-    font-weight: 400;
-}

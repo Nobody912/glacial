@@ -11,6 +11,8 @@ baseurl:
 menu:
   - name: Home
     url: /
+  - name: Test
+    url: /test
 
 
 # File Details

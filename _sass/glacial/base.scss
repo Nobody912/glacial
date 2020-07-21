@@ -9,36 +9,50 @@ body {
     background-color: var(--background-color);
     word-wrap: break-word;
     width: 100%;
-    padding: calc(64px + 32px) 0 0 0;
+    padding: calc(60px) 0 0 0;
     text-align: center;
 }
 
 h1,
 h2,
 h3,
-h4 {
+h4,
+s1,
+s2,
+s3,
+s4 {
     font-family: var(--heading-font-family);
     color: var(--heading-color);
     text-transform: uppercase;
 }
 
-h1 {
+s1,
+s2,
+s3,
+s4 {
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4 {
     font-weight: 700;
+}
+
+h1, s1 {
     font-size: 2.5rem;
 }
 
-h2 {
-    font-weight: 700;
+h2, s2 {
     font-size: 2rem;
 }
 
-h3 {
-    font-weight: 700;
+h3, s3 {
     font-size: 1.5rem;
 }
 
-h4 {
-    font-weight: 700;
+h4, s4 {
     font-size: 1rem;
 }
 
@@ -73,7 +87,7 @@ blockquote {
 }
 
 footer {
-    margin: 32px 0 0 0;
+    margin: 32px 0 32px 0;
     padding: 0;
 }
 
