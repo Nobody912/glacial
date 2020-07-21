@@ -14,13 +14,13 @@ img.hero {
 
 img.inline-left {
     float: left;
-    margin-right: 16px;
+    margin-right: 16px !important;
     width: 50%;
 }
 
 img.inline-right {
     float: right;
-    margin-left: 16px;
+    margin-left: 16px !important;
     width: 50%;
 }
 
