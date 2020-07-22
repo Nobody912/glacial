@@ -1,4 +1,4 @@
-:root {
+html, html[data-theme="light"] {
     --paper-color: #ffffff;
     --background-color: #eceff4;
     --menu-background-color: #d8dee9;
@@ -14,7 +14,7 @@
     --body-font-family: Dank Mono, 'Courier New', Courier, monospace;
 }
 
-[data-theme="dark"] {
+html[data-theme="dark"] {
     --paper-color: #4c566a;
     --background-color: #3b4252;
     --menu-background-color: #2e3440;
