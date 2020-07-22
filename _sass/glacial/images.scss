@@ -45,11 +45,9 @@ div.hero {
     align-items: center;
     background-size: cover;
     background-position: center;
+    backdrop-filter: blur (10px);
     text-align: left;
     padding: 10%;
-}
-div.hero-test {
-
 }
 
 // Small devices (landscape phones, 300px and up)
