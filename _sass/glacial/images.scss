@@ -9,18 +9,17 @@ img.hero {
     display: block;
     border-radius: 0;
     width: 100%;
-    margin: 0 auto;
 }
 
-img.inline-left {
+.inline-left {
     float: left;
-    margin-right: 16px !important;
+    margin-right: 16px;
     width: 50%;
 }
 
-img.inline-right {
+.inline-right {
     float: right;
-    margin-left: 16px !important;
+    margin-left: 16px;
     width: 50%;
 }
 
