@@ -1,3 +1,4 @@
+const currentTheme = localStorage.getItem('theme');
 const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
 
 if (currentTheme === 'dark') {
