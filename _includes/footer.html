@@ -5,7 +5,7 @@
                 {% if service.id and service.href %}
                     <a href="{{ service.href }}{{ service.id }}" title="{{ service.title }}"><i class="{{ service.fa-icon }}"></i></a>
                 {% else %}
-                    <i style="color: var(--link-color);" class="{{ service.fa-icon }}"></i>{{ service.id }}
+                    <i style="color: var(--link-color);" class="{{ service.fa-icon }}"></i> {{ service.id }}
                 {% endif %}
             {% endfor %}
         {% endif %}
