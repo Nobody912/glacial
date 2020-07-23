@@ -3,10 +3,12 @@ layout: template
 ---
 <div class="hero" style="background-image: url({{ page.hero-url }});">
     <div class="hero-text">
-        {%- if page.text-color == "light" -%}
-            {%- assign color = "color: #eceff4;"-%}
-        {%- elsif page.text-color == "dark" -%}
-            {%- assign color = "color: #2e3440;"-%}
+        {%- if page.text-color -%}
+            {%- if page.text-color == "light" -%}
+                {%- assign color = "color: #eceff4;"-%}
+            {%- elsif page.text-color == "dark" -%}
+                {%- assign color = "color: #2e3440;"-%}
+            {%- endif -%}
         {%- endif -%}
         <h1 style="font-size: 4em; {{ color }}">{{page.title}}</h1>
         <s1 style="{{ color }}">{{ page.subtitle }}</s1>
