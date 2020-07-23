@@ -1,0 +1,74 @@
+// Small devices (landscape phones, 300px and up)
+@media (min-width: 360px) {
+    div.thumbnail {
+        float:left;
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    div.thumbnail-text {
+        float:left;
+        width: 100%;
+        word-wrap: normal;
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    div.thumbnail {
+        float:left;
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    div.thumbnail-text {
+        float:left;
+        width: 100%;
+        word-wrap: normal;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    div.wthumbnail {
+        float:left;
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    div.thumbnail-text {
+        float:left;
+        width: 100%;
+        word-wrap: normal;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    div.thumbnail {
+        float:left;
+        width: 35%;
+        margin-right: 16px;
+    }
+
+    div.thumbnail-text {
+        float:left;
+        width: calc(65% - 16px);
+        word-wrap: normal;
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    div.thumbnail {
+        float:left;
+        width: 35%;
+        margin-right: 16px;
+    }
+
+    div.thumbnail-text {
+        float:left;
+        width: calc(65% - 16px);
+        word-wrap: normal;
+    }
+}

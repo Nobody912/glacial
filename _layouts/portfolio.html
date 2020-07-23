@@ -9,10 +9,10 @@ layout: template
 {%- if posts.size > 0 -%}
     {%- for post in posts -%}
         <div class="paper">
-            <div style="float:left; width: 35%; margin-right: 16px;">
+            <div class="thumbnail">
                 <img src="{{ post.thumbnail-url }}">
             </div>
-            <div style="float:left; width: calc(65% - 16px); word-wrap: normal;">
+            <div class="thumbnail-text">
                 <h2>
                     <a href="{{ post.url | relative_url }}">
                         {{ post.title | escape }}
