@@ -15,6 +15,7 @@ m1 {
 }
 
 .navbar {
+    transition: background 500ms ease-in-out, color 250ms ease-in-out;
     background: var(--menu-background-color);
 }
 
