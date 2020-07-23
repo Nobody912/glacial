@@ -22,25 +22,25 @@ social:
     id: 'your.name@yoursite.com'
     href: 'mailto:'
     title: 'Email'
-    fa-icon: 'fa-envelope-square'
+    fa-icon: 'fa fa-envelope-square'
 
   - facebook:
     id: 'your-facebook-username'
     href: 'https://www.facebook.com/'
     title: 'Facebook'
-    fa-icon: 'fa-facebook-square'
+    fa-icon: 'fa fa-facebook-square'
 
   - twitter:
     id: 'your-twitter-name'
     href: 'https://www.twitter.com/'
     title: 'Twitter'
-    fa-icon: 'fa-twitter-square'
+    fa-icon: 'fa fa-twitter-square'
 
   - github:
     id: 'your-github-name'
     href: 'https://github.com/'
     title: 'GitHub'
-    fa-icon: 'fa-github-square'
+    fa-icon: 'fa fa-github-square'
 
 # Markdown File Details
 encoding: "utf-8"
