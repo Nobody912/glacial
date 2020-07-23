@@ -40,19 +40,23 @@ h4 {
     font-weight: 700;
 }
 
-h1, s1 {
+h1,
+s1 {
     font-size: 2.5rem;
 }
 
-h2, s2 {
+h2,
+s2 {
     font-size: 2rem;
 }
 
-h3, s3 {
+h3,
+s3 {
     font-size: 1.5rem;
 }
 
-h4, s4 {
+h4,
+s4 {
     font-size: 1rem;
 }
 
@@ -63,16 +67,14 @@ p {
     color: var(--foreground-color);
 }
 
-li {
+li,
+ol,
+ul {
     font-family: var(--body-font-family);
     font-weight: 400;
     font-size: 1rem;
-    margin-left: 2rem;
     color: var(--foreground-color);
-}
-
-ol {
-    margin-left: 1em;
+    margin-left: 2rem;
 }
 
 hr {
@@ -86,11 +88,6 @@ blockquote {
     border-left: 0.25rem solid var(--heading-color);
 }
 
-footer {
-    margin: 32px 0 32px 0;
-    padding: 0;
-}
-
 a:link {
     color: #5e81ac;
     transition: 0.2s;
@@ -98,7 +95,7 @@ a:link {
 }
 
 a:visited {
-    color: #b48ead;
+    color: #5e81ac;
 }
 
 a:hover {

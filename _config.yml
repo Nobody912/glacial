@@ -5,18 +5,44 @@ author:
   email: your-email@domain.com
 description: > # this means to ignore newlines until "show_excerpts:"
   Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-copyright: 
+copyright: MIT License
 
 baseurl: 
 
+# Navbar
 menu:
   - name: Home
     url: /
   - name: Test
     url: /test
 
+# Social
+social:
+  - email:
+    id: 'your.name@yoursite.com'
+    href: 'mailto:'
+    title: 'Email'
+    fa-icon: 'fa-envelope-square'
 
-# File Details
+  - facebook:
+    id: 'your-facebook-username'
+    href: 'https://www.facebook.com/'
+    title: 'Facebook'
+    fa-icon: 'fa-facebook-square'
+
+  - twitter:
+    id: 'your-twitter-name'
+    href: 'https://www.twitter.com/'
+    title: 'Twitter'
+    fa-icon: 'fa-twitter-square'
+
+  - github:
+    id: 'your-github-name'
+    href: 'https://github.com/'
+    title: 'GitHub'
+    fa-icon: 'fa-github-square'
+
+# Markdown File Details
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 highlighter: rouge
@@ -24,6 +50,7 @@ highlighter: rouge
 # Blog
 show_excerpts: true
 
+# SASS handling
 sass:
   style: compressed
 
