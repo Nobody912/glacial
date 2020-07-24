@@ -5,15 +5,21 @@ title: Test Document
 
 mountains1:
     - url: https://unsplash.com/photos/Y8lCoTRgHPE/download?force=true
+      caption: A Snowy Mountain Range
 
 mountains2:
     - url: https://unsplash.com/photos/WWVD4wXRX38/download?force=true&w=1920
+      caption: NOAA Atmospheric Research Observatory, South Pole, Antarctica
     - url: https://unsplash.com/photos/iTYShprNeRE/download?force=true&w=1920
+      caption: Kalavrita Ski Resort, Kalavrita, Greece
 
 mountains3:
     - url: https://unsplash.com/photos/esqCBDDtauo/download?force=true&w=640
+      caption: Queenstown, New Zealand
     - url: https://unsplash.com/photos/NdIbTqTz3Dw/download?force=true&w=640
+      caption: NOAA Atmospheric Research Observatory, South Pole, Antarctica
     - url: https://unsplash.com/photos/xfngap_DToE/download?force=true&w=640
+      caption: A Snowy Mountain
 ---
 # <a name="top"></a>Markdown Test Page
 
@@ -25,6 +31,7 @@ mountains3:
 * [Table](#Table)
 * [Code](#Code)
 * [Inline elements](#Inline)
+* [Galeries](#Galeries)
 
 ***
 
@@ -177,6 +184,9 @@ Incididunt in culpa cupidatat mollit cillum qui proident sit. In cillum aliquip 
 </div>
 
 Reprehenderit non eu quis in ad elit esse qui aute id [incididunt](#!) dolore cillum. Esse laboris consequat dolor anim exercitation tempor aliqua deserunt velit magna laboris. Culpa culpa minim duis amet mollit do quis amet commodo nulla irure.
+
+
+# <a name="Galleries"></a>Galleries
 
 {% include gallery.html id="mountains1" %}
 {% include gallery.html id="mountains2" %}
