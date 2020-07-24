@@ -4,7 +4,11 @@
     {% for img in galitems %}
         <div class="gallery-item">
             <a href="{{ img.url | relative_url }}" data-lightbox="{{ include.id }}" data-title="{{ img.caption }}">
-                <img class="gallery" src="{{ img.url | relative_url }}">
+                {% if img.resize %}
+                    <img class="gallery" src="{{ img.url | relative_url }}">
+                {% else %}
+                    <img src="{{ img.url | relative_url }}">
+                {% endif %}
             </a>
         </div>
     {% endfor %}

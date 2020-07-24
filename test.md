@@ -6,20 +6,26 @@ title: Test Document
 mountains1:
     - url: https://unsplash.com/photos/Y8lCoTRgHPE/download?force=true
       caption: A Snowy Mountain Range
+      resize: true
 
 mountains2:
     - url: https://unsplash.com/photos/WWVD4wXRX38/download?force=true&w=1920
       caption: NOAA Atmospheric Research Observatory, South Pole, Antarctica
+      resize: true
     - url: https://unsplash.com/photos/iTYShprNeRE/download?force=true&w=1920
       caption: Kalavrita Ski Resort, Kalavrita, Greece
+      resize: true
 
 mountains3:
     - url: https://unsplash.com/photos/esqCBDDtauo/download?force=true&w=640
       caption: Queenstown, New Zealand
+      resize: true
     - url: https://unsplash.com/photos/NdIbTqTz3Dw/download?force=true&w=640
       caption: NOAA Atmospheric Research Observatory, South Pole, Antarctica
+      resize: true
     - url: https://unsplash.com/photos/xfngap_DToE/download?force=true&w=640
       caption: A Snowy Mountain
+      resize: true
 ---
 # <a name="top"></a>Markdown Test Page
 
