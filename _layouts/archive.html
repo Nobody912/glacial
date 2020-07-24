@@ -14,7 +14,6 @@ layout: template
                     {{ post.title | escape }}
                 </a>
             </h2>
-            <h4>{{ post.date | date: "%B %d, %Y" }}</h4>
             {%- if site.show_excerpts -%}
                 <p class="disappear">
                     {{ post.excerpt | strip_html }}

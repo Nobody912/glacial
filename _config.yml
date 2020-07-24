@@ -1,11 +1,11 @@
 # General
-title: My Project
+title: My Site
 author:
-  name: GitHub User
+  name: Name
   email: your-email@domain.com
 description: > # this means to ignore newlines until "show_excerpts:"
   Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-copyright: MIT License
+copyright: Powered by Jekyll and Glacial
 
 baseurl: 
 
@@ -15,6 +15,9 @@ menu:
     url: /
   - name: Test
     url: /test
+  - name: Sample Texts
+    url: /samples
+
 
 # Social
 social:

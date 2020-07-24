@@ -1,11 +1,13 @@
 table,
 th,
 td {
-    font-family: var(--body-font-family);
+    font-family: var(--monospace-font-family);
+    font-size: 0.75rem;
     border: 0.125em solid var(--foreground-color);
     color: var(--foreground-color);
     table-layout: fixed;
-    width: 100% !important;
+    width: 100%;
+    margin-bottom: 16px;
 }
 
 th,

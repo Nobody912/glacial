@@ -1,15 +1,11 @@
 <footer>
-    <p>
-        {% if site.social %}
-            {% for service in site.social %}
-                {% if service.id and service.href %}
-                    <a href="{{ service.href }}{{ service.id }}" title="{{ service.title }}"><i class="{{ service.fa-icon }}"></i></a>
-                {% else %}
-                    <i style="color: var(--link-color); padding-right: 0.5rem;" class="{{ service.fa-icon }}"></i>{{ service.id }}
-                {% endif %}
-            {% endfor %}
-        {% endif %}
-        <br>
-        {{ site.copyright }}
-    </p>
+    {% if site.social %}
+        {% for service in site.social %}
+            {% if service.id and service.href %}
+                <a href="{{ service.href }}{{ service.id }}" title="{{ service.title }}"><i class="{{ service.fa-icon }}"></i></a>
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+    <br>
+    {{ site.copyright }}
 </footer>

@@ -23,7 +23,7 @@ s2,
 s3,
 s4 {
     font-family: var(--heading-font-family);
-    color: var(--heading-color);
+    color: var(--foreground-color);
     text-transform: uppercase;
 }
 
@@ -63,7 +63,7 @@ s4 {
 
 p {
     font-family: var(--body-font-family);
-    font-weight: 400;
+    font-weight: 300;
     font-size: 1rem;
     color: var(--foreground-color);
 }
@@ -72,21 +72,27 @@ li,
 ol,
 ul {
     font-family: var(--body-font-family);
-    font-weight: 400;
+    font-weight: 300;
     font-size: 1rem;
     color: var(--foreground-color);
-    margin-left: 2rem;
+    margin-left: 1rem;
 }
 
 hr {
     width: 100%;
     float: left;
     border: 0.0625rem solid var(--foreground-color);
+    margin-top: 0;
+}
+
+br.spacer {
+    margin: 0;
+    padding: 0;
 }
 
 blockquote {
     padding-left: 1rem;
-    border-left: 0.25rem solid var(--heading-color);
+    border-left: 0.125rem solid var(--foreground-color);
 }
 
 a:link {
@@ -121,39 +127,6 @@ p.disappear {
     margin: 32px 5% 0 5%;
     display: inline-block;
     text-align: left;
-}
-
-// Small devices (landscape phones, 300px and up)
-@media (min-width: 360px) {
-    .paper {
-        width: 90%;
-    }
-}
-
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
-    .paper {
-        width: 90%;
-    }
-}
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-    .paper {
-        width: 90%;
-    }
-}
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-    .paper {
-        width: 90%;
-    }
-}
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-    .paper {
-        width: calc(972px + 10%);
-    }
+    width: 90%;
+    max-width: calc(680px + 10%);
 }
