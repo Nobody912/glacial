@@ -5,29 +5,29 @@ title: Glacial
 description: Glacial, a simple, cool Jekyll theme.
 subtitle: Refreshing.
 hero-text-color: light # dark or light
-hero-url: https://unsplash.com/photos/j9w4Tm42Yog/download?force=true
+hero-url: https://raw.githubusercontent.com/Nobody912/me/master/assets/media/splash.webp
 hero-blur: 10
-thumbnail-url: https://raw.githubusercontent.com/Nobody912/me/master/assets/media/glacial_thumb.png
+thumbnail-url: https://raw.githubusercontent.com/Nobody912/me/master/assets/media/glacial_thumb.webp
 
 screenshot1:
-  - url: https://github.com/Nobody912/me/raw/master/assets/media/glacial_ss.png
+  - url: https://github.com/Nobody912/me/raw/master/assets/media/glacial_ss.webp
     caption: Current site appearance.
     resize: false
 
 screenshot2:
-  - url: https://github.com/Nobody912/me/raw/master/assets/media/glacial_old_0_ss.png
+  - url: https://github.com/Nobody912/me/raw/master/assets/media/glacial_old_0_ss.webp
     caption: The original look for my site.
     resize: true
 
 screenshot3:
-  - url: https://github.com/Nobody912/me/raw/master/assets/media/glacial_old_1_ss.png
+  - url: https://github.com/Nobody912/me/raw/master/assets/media/glacial_old_1_ss.webp
     caption: The second revision appearance for my site.
     resize: true
 
 font:
-  - url: https://github.com/Nobody912/me/raw/master/assets/media/font_sample.png
+  - url: https://github.com/Nobody912/me/raw/master/assets/media/font_sample.webp
     caption: Samples for the fonts used on my site.
-    resize: true
+    resize: false
 ---
 
 {% include gallery.html id="screenshot1" %}
@@ -69,12 +69,13 @@ _Roboto Slab_ is one of the most popular modern slab fonts. It not only preserve
 {% include gallery.html id="font" %}
 
 ## COLOR
-I like colors. I am sure you do too. I have developed a liking for pastel colors as they are rather soothing pleasant to the eyes. The [Nord](https://nordtheme.com) color palette captures my tastes perfectly. The Nord color palette is light and unobtrusive, featuring subtle pastel colors all tinted a soft arctic blue. I have done my best to implement the color system, only breaking away from it for accessibility and viewability adjustments.
+I have developed a liking for pastel colors as they are rather soothing pleasant to the eyes. The [Nord](https://nordtheme.com) color palette captures my tastes perfectly. The Nord color palette is light and unobtrusive, featuring subtle pastel colors all tinted a soft arctic blue. I have done my best to implement the color system, only breaking away from it for accessibility and viewability adjustments.
 
 # CREDITS/RESOURCES
 * [FontAwesome](https://fontawesome.com/)
 * [Weather Icons](https://erikflowers.github.io/weather-icons/)
 * [Bootstrap](https://getbootstrap.com/)
 * [highlight.js](https://highlightjs.org/)
+* [Lightbox 2](https://lokeshdhakar.com/projects/lightbox2/)
 * [Nord Theme](https://nordtheme.com/)
 * [Unsplash](https://unsplash.com/)
