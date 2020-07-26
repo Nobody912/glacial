@@ -1,30 +1,42 @@
 ---
-layout: template
+layout:
 ---
-<div class="hero">
-    {%- if page.hero-blur -%}
-        {%- assign blur = page.hero-blur -%}
-    {%- else -%}
-        {%- assign blur = 0 -%}
-    {%- endif -%}
-    <div class="hero-image">
-    <img class="hero-image" style="filter: blur({{ blur }}px);" src="{{ page.hero-url }}"/>
-    </div>
-    <div class="hero-text">
-        {%- if page.hero-text-color -%}
-            {%- if page.hero-text-color == "light" -%}
-                {%- assign color = "#eceff4"-%}
-            {%- elsif page.hero-text-color == "dark" -%}
-                {%- assign color = "#2e3440"-%}
-            {%- endif -%}
-        {%- else -%}
-            {%- assign color = "auto" -%}
-        {%- endif -%}
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+{%- include head.html -%}
 
-        <h1 style="font-size: 4rem; color: {{ color }}; line-height:4rem;">{{page.title}}</h1>
-        <s1 style="color: {{ color }}; line-height:2rem;">{{ page.subtitle }}</s1>
+<body>
+    {%- include header.html -%}
+    <div class="hero">
+        {%- if page.hero-blur -%}
+            {%- assign blur = page.hero-blur -%}
+        {%- else -%}
+            {%- assign blur = 0 -%}
+        {%- endif -%}
+        <div class="hero-image">
+        <img class="hero-image" style="filter: blur({{ blur }}px);" src="{{ page.hero-url }}"/>
+        </div>
+        <div class="hero-text">
+            {%- if page.hero-text-color -%}
+                {%- if page.hero-text-color == "light" -%}
+                    {%- assign color = "#eceff4"-%}
+                {%- elsif page.hero-text-color == "dark" -%}
+                    {%- assign color = "#2e3440"-%}
+                {%- endif -%}
+            {%- else -%}
+                {%- assign color = "auto" -%}
+            {%- endif -%}
+    
+            <h1 style="font-size: 4rem; color: {{ color }}; line-height:4rem;">{{page.title}}</h1>
+            <s1 style="color: {{ color }}; line-height:2rem;">{{ page.subtitle }}</s1>
+        </div>
     </div>
-</div>
-<div class="paper">
-    {{ content }}
-</div>
+    <div class="content-container">
+        <div class="paper">
+            {{ content }}
+        </div>
+    </div>
+    {%- include footer.html -%}
+</body>
+
+</html>

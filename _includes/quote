@@ -1,0 +1,23 @@
+<style>
+    blockquote.large-quote {
+        /* reset default */
+        padding: 0;
+        border-left: none;
+        margin: 32px 32px 32px 32px;
+    }
+
+    p.large-quote {
+        max-width: 32ch;
+        text-align: left;
+        font-size: 1.5rem;
+        font-style: italic;
+        padding: 0 !important;
+        margin: 0 auto;
+    }
+
+</style>
+<blockquote class="large-quote">
+    <p class="large-quote">
+        {{ include.quote }}
+    </p>
+</blockquote>

@@ -3,22 +3,8 @@ code {
     border-radius: 0.25rem;
 }
 
-.hljs {
-    background-color: var(--code-block-bg-color);
-}
-
-.hljs,
-.hljs-subst,
-.hljs-params,
-.hljs-attribute,
-.hljs-variable,
-.hljs-template-variable {
-    color: var(--code-block-color);
-}
-
 .highlighter-rouge {
     color: var(--code-block-color);
-    background-color: var(--code-block-bg-color);
     border-radius: 0.25rem;
     padding: 0.25rem 0.25rem 0.25rem 0.25rem;
     line-height: 1rem;

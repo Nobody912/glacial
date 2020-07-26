@@ -194,6 +194,6 @@ Reprehenderit non eu quis in ad elit esse qui aute id [incididunt](#!) dolore ci
 
 # <a name="Galleries"></a>Galleries
 
-{% include gallery.html id="mountains1" %}
-{% include gallery.html id="mountains2" %}
-{% include gallery.html id="mountains3" %}
+{% include gallery id="mountains1" %}
+{% include gallery id="mountains2" %}
+{% include gallery id="mountains3" %}

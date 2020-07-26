@@ -10,7 +10,7 @@ body {
     background-color: var(--background-color);
     word-wrap: break-word;
     width: 100%;
-    padding: calc(60px) 0 0 0;
+    padding: 64px 0 0 0;
     text-align: center;
 }
 
@@ -86,12 +86,6 @@ hr {
     margin-top: 0;
 }
 
-br.spacer {
-    line-height: 0;
-    margin: 0;
-    padding: 0;
-}
-
 blockquote {
     padding-left: 1rem;
     border-left: 0.125rem solid var(--foreground-color);
@@ -122,13 +116,19 @@ p.disappear {
 }
 
 .paper {
-    display: flex;
+    display: block;
     border-radius: 0.25rem;
     background-color: var(--paper-color);
+    margin: 0 auto 0 auto;
     padding: 5%;
-    margin: 32px 5% 0 5%;
-    display: inline-block;
     text-align: left;
     width: 90%;
     max-width: calc(680px + 10%);
+}
+
+.content-container {
+    display: grid;
+    row-gap: 32px;
+    margin: 0;
+    padding: 32px 5% 32px 5%;
 }

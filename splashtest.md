@@ -30,7 +30,7 @@ font:
     resize: false
 ---
 
-{% include gallery.html id="screenshot1" %}
+{% include gallery id="screenshot1" %}
 
 # ABOUT
 Glacial is an extremely simple paper/card Jekyll theme styled with the Nord color scheme. It is perfect for basic blogs, portfolios, and project pages.
@@ -49,11 +49,11 @@ Glacial is an extremely simple paper/card Jekyll theme styled with the Nord colo
 ## GENERAL APPEARANCE
 The **Glacial** theme is built to look minimalistic and straightforward, following my preferred style/design choices. The majority of the layout was improvised and evolved several times before arriving at its current design. Initially, I went for a completely flat (text-on-solid-color) look, which, while capturing the simplicity I had in mind, looked awful, completely uninteresting, and somewhat tacky.
 
-{% include gallery.html id="screenshot2" %}
+{% include gallery id="screenshot2" %}
 
 After more revisions, I decided to add a navigation bar with brand text at the top with standard unordered list navigation links. I kept the blue header accents in an attempt to add more color depth compared to the site UI and paragraph text.
 
-{% include gallery.html id="screenshot3" %}
+{% include gallery id="screenshot3" %}
 
 In my final revision, I caved in for a nice Bootstrap navbar, implemented a high contrast paper/card-style layout, and refined the colors to be more focused. Additionally, I added features such as `highlight.js` code formatting, support for tables, image handling, advanced formatting, and blog/post templates.
 
@@ -66,7 +66,7 @@ _Dank Mono_ is a monospace typeface designed by Phil Plückthun. Unlike other mo
 
 _Roboto Slab_ is one of the most popular modern slab fonts. It not only preserves the geometric properties of its parent _Roboto_, but it is cleaner and simpler compared to many of the other available slab fonts. 
 
-{% include gallery.html id="font" %}
+{% include gallery id="font" %}
 
 ## COLOR
 I have developed a liking for pastel colors as they are rather soothing pleasant to the eyes. The [Nord](https://nordtheme.com) color palette captures my tastes perfectly. The Nord color palette is light and unobtrusive, featuring subtle pastel colors all tinted a soft arctic blue. I have done my best to implement the color system, only breaking away from it for accessibility and viewability adjustments.
