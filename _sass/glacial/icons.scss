@@ -1,7 +1,6 @@
 .fa-moon,
 .wi-day-sunny {
     color: var(--foreground-color);
-    line-height: 0.5rem;
     font-size: 1rem;
     display: inline-block;
     width: 2rem;
@@ -9,9 +8,8 @@
 
 .fa-bars {
     color: var(--foreground-color);
-    line-height: 1rem;
     font-size: 1rem;
-    padding: 0.6rem 0.6rem 0.5rem 0.6rem;
+    padding: 8px 9px 8px 9px;
 }
 
 .fa-bars:hover {
