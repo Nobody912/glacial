@@ -21,6 +21,7 @@ a.logo {
   font-family: var(--heading-font-family);
   font-weight: 700;
   font-size: 2rem;
+  line-height: 2rem;
   color: var(--menu-foreground-color);
   text-transform: uppercase;
   margin-right: auto;
@@ -132,5 +133,15 @@ a.logo:hover {
 
   .menu {
     display: initial;
+  }
+}
+
+@media only screen and (min-width: 680px) {
+  .nav-links {
+    display: flex;
+  }
+
+  .menu {
+    display: none;
   }
 }
