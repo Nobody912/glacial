@@ -67,7 +67,7 @@ a.logo:hover {
 /* Mobile Nav */
 
 .menu {
-  display: none;
+  display: none !important;
   margin: 0 1rem;
   color: var(--menu-foreground-color);
 }
