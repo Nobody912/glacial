@@ -135,13 +135,3 @@ a.logo:hover {
     display: initial;
   }
 }
-
-@media only screen and (min-width: 680px) {
-  .nav-links {
-    display: flex;
-  }
-
-  .menu {
-    display: none;
-  }
-}
