@@ -67,7 +67,7 @@ a.logo:hover {
 /* Mobile Nav */
 
 .menu {
-  display: none !important;
+  display: none;
   margin: 0 1rem;
   color: var(--menu-foreground-color);
 }
@@ -132,6 +132,6 @@ a.logo:hover {
   }
 
   .menu {
-    display: initial !important;
+    display: initial;
   }
 }
