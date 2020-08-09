@@ -10,7 +10,7 @@ layout: template
     {%- for post in posts -%}
         <div class="paper">
             <h2>
-                <a href="{{ post.url | relative_url }}">
+                <a class="blog-link" href="{{ post.url | relative_url }}">
                     {{ post.title | escape }}
                 </a>
             </h2>
@@ -21,7 +21,7 @@ layout: template
                 </p>
                 <div style="text-align: center;">
                     <p>
-                        <a href="{{ post.url | relative_url }}">
+                        <a class="blog-link" href="{{ post.url | relative_url }}">
                             Read More >
                         </a>
                     </p>

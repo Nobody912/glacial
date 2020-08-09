@@ -37,7 +37,7 @@ mountains3:
 * [Table](#Table)
 * [Code](#Code)
 * [Inline elements](#Inline)
-* [Galeries](#Galeries)
+* [Galleries](#Galleries)
 
 ***
 

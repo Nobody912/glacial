@@ -1,134 +1,40 @@
 /* Base */
 * {
-    padding: 0;
-    margin: 0;
-    outline: none !important;
-    transition: background 250ms ease-in-out, color 125ms ease-in-out;
+  padding: 0;
+  margin: 0;
+  outline: none !important;
+  transition: background 250ms ease-in-out, color 125ms ease-in-out;
 }
 
 body {
-    background-color: var(--background-color);
-    word-wrap: break-word;
-    width: 100%;
-    padding: 60px 0 0 0;
-    text-align: center;
-}
-
-h1,
-h2,
-h3,
-h4,
-s1,
-s2,
-s3,
-s4 {
-    font-family: var(--heading-font-family);
-    color: var(--foreground-color);
-    text-transform: uppercase;
-    margin: 0;
-}
-
-s1,
-s2,
-s3,
-s4 {
-    font-weight: 400;
-}
-
-h1,
-h2,
-h3,
-h4 {
-    font-weight: 700;
-}
-
-h1,
-s1 {
-    font-size: 2.5rem;
-}
-
-h2,
-s2 {
-    font-size: 2rem;
-}
-
-h3,
-s3 {
-    font-size: 1.5rem;
-}
-
-h4,
-s4 {
-    font-size: 1rem;
-}
-
-p {
-    font-family: var(--body-font-family);
-    font-weight: 300;
-    font-size: 1rem;
-    color: var(--foreground-color);
-}
-
-li,
-ol,
-ul {
-    font-family: var(--body-font-family);
-    font-weight: 300;
-    font-size: 1rem;
-    color: var(--foreground-color);
-    margin-left: 1rem;
-}
-
-hr {
-    width: 100%;
-    float: left;
-    border: 0.0625rem solid var(--foreground-color);
-    margin-top: 0;
-}
-
-blockquote {
-    padding-left: 1rem;
-    border-left: 0.125rem solid var(--foreground-color);
-}
-
-a:link {
-    color: var(--link-color);
-    transition: 0.2s;
-    text-decoration: none;
-}
-
-a:visited {
-    color: var(--link-color);
-}
-
-a:hover {
-    color: var(--link-hover-color);
-}
-
-a:active {
-    color: var(--link-color);
-}
-
-p.disappear {
-    background: -webkit-linear-gradient(var(--foreground-color), var(--paper-color));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background-color: var(--background-color);
+  word-wrap: break-word;
+  width: 100%;
+  text-align: center;
 }
 
 .paper {
-    display: block;
-    border-radius: 0.25rem;
-    background-color: var(--paper-color);
-    margin: 0 auto 0 auto;
-    padding: 5%;
-    text-align: left;
-    width: 90%;
-    max-width: calc(680px + 10%);
+  display: flexbox;
+  border-radius: 0.25rem;
+  background-color: var(--paper-color);
+  margin: 0 auto 0 auto;
+  padding: 5%;
+  text-align: left;
+  word-wrap: normal;
+  width: 100%;
+  max-width: calc(680px + 10%);
 }
 
 .content-container {
-    display: grid;
-    row-gap: 32px;
-    margin: 0;
-    padding: 32px 5% 32px 5%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+  margin: 0;
+  padding: 32px 5% 32px 5%;
+}
+
+@media only screen and (max-width: 360px) {
+  .paper {
+    word-wrap: break-word;
+  }
 }

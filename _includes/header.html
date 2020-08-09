@@ -1,51 +1,41 @@
-<!-- Bootstrap -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" crossorigin="anonymous">
-<!-- BS -> jQuery -->
-<script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
-<!-- Popperjs -->
-<script src="https://unpkg.com/@popperjs/core@2.4.4/dist/umd/popper.min.js" crossorigin="anonymous">
-</script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" crossorigin="anonymous">
-</script>
-<!-- Stylesheet -->
-<link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
-
 <header>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-        <a class="navbar-brand">
-            <t1 style="line-height: 0.85em;">{{ site.title }}</t1>
-        </a>
-        <div class="d-flex order-lg-1 ml-auto pr-2">
-            <ul class="navbar-nav flex-row" style="margin-left: 0;">
-                <li class="nav-item">
-                    <label class="theme-switch" for="checkbox">
-                        <input type="checkbox" id="checkbox" />
-                        <i class="wi wi-day-sunny checked"></i>
-                        <i class="fas fa-moon unchecked"></i>
-                    </label>
-                </li>
-                <script src="{{ "/assets/js/dark-mode.js" | relative_url }}"></script>
-            </ul>
-        </div>
-        <button style="border: 0;" class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                {% for item in site.menu %}
-                <li class="nav-item hover">
-                    {% if page.url == item.url %}
-                    <m1>
-                        <a class="nav-link active" href="{{ site.baseurl }}{{ item.url }}">{{ item.name }}</a>
-                    </m1>
-                    {% else %}
-                    <m1>
-                        <a class="nav-link" href="{{ site.baseurl }}{{ item.url }}">{{ item.name }}</a>
-                    </m1>
-                    {% endif %}
-                </li>
-                {% endfor %}
-            </ul>
-        </div>
+    {%- if site.logo -%}
+        {%- if site.logo-text -%}
+            <a class="logo" href="/">
+                <img style="margin-right: 0.5rem;"class="logo" src="{{ site.logo }}">{{ site.title }}
+            </a>
+        {%- else -%}
+            <a class="logo" href="/">
+                <img style="margin-right: 0.5rem;"class="logo" src="{{ site.logo }}">
+            </a>
+        {%- endif -%}
+    {%- else -%}
+        <a class="logo" href="/">{{ site.title }}</a>
+    {%- endif -%}
+    <nav>
+        <ul class="nav-links">
+            {% for item in site.menu %}
+            <li>
+                <a href="{{ site.baseurl }}{{ item.url }}">{{ item.name }}</a>
+            </li>
+            {% endfor %}
+        </ul>
     </nav>
+    <label class="theme-switch" for="checkbox">
+        <input type="checkbox" id="checkbox" />
+        <i class="wi wi-day-sunny checked"></i>
+        <i class="fas fa-moon unchecked"></i>
+    </label>
+    <script src="{{ "/assets/js/dark-mode.js" | relative_url }}"></script>
+    <i class="fas fa-bars menu"></i>
 </header>
+
+<div id="mobile-menu" class="overlay">
+    <div class="overlay-content">
+        <a class="close">&times;</a>
+        {% for item in site.menu %}
+            <a href="{{ site.baseurl }}{{ item.url }}">{{ item.name }}</a>
+        {% endfor %}
+    </div>
+</div>
+<script type="text/javascript" src="{{ "/assets/js/mobile.js" | relative_url }}"></script>

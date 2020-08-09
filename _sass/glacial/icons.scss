@@ -1,6 +1,12 @@
+.fa-moon:hover,
+.wi-day-sunny:hover,
+.fa-bars:hover {
+    color: var(--highlight-color);
+}
+
 .fa-moon,
 .wi-day-sunny {
-    color: var(--foreground-color);
+    color: var(--menu-foreground-color);
     font-size: 1rem;
     display: inline-block;
     width: 2rem;
@@ -8,12 +14,5 @@
 
 .fa-bars {
     color: var(--foreground-color);
-    font-size: 1rem;
-    padding: 8px 9px 8px 9px;
-}
-
-.fa-bars:hover {
-    border-radius: 0.25rem;
-    background-color: var(--hover-color);
-    transition: 0.25s ease;
+    font-size: 1.25rem;
 }

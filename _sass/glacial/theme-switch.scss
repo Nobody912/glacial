@@ -1,14 +1,7 @@
 label.theme-switch {
     margin: 0;
-    padding: 2px 0 6px 0;
+    padding: 0;
 }
-
-label:hover {
-    border-radius: 0.25rem;
-    background-color: var(--hover-color);
-    transition: 0.25s ease;
-}
-
 .theme-switch input[type="checkbox"],
 .theme-switch .checked {
     display: none;

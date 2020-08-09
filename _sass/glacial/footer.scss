@@ -2,6 +2,25 @@ footer {
     font-family: var(--heading-font-family);
     font-size: 1rem;
     font-weight: 300;
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+    color: var(--foreground-color);
     margin: 0 0 32px 0;
     padding: 0;
+}
+
+.social:link {
+    color: var(--link-color);
+    transition: 0.25s;
+    text-decoration: none;
+}
+
+.social:hover {
+    color: var(--foreground-color);
+    background: none;
+}
+
+.social:visited,
+.social:active {
+    color: var(--link-color);
 }

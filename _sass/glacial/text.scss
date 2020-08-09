@@ -1,0 +1,125 @@
+h1,
+h2,
+h3,
+h4,
+s1,
+s2,
+s3,
+s4 {
+    font-family: var(--heading-font-family);
+    color: var(--foreground-color);
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+
+s1,
+s2,
+s3,
+s4 {
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 700;
+}
+
+h1,
+s1 {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+}
+
+h2,
+s2 {
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+h3,
+s3 {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+
+h4,
+s4 {
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+p {
+    font-family: var(--body-font-family);
+    font-weight: 300;
+    font-size: 1rem;
+    color: var(--foreground-color);
+    margin-bottom: 16px;
+}
+
+li,
+ol,
+ul {
+    font-family: var(--body-font-family);
+    font-weight: 300;
+    font-size: 1rem;
+    color: var(--foreground-color);
+    margin-left: 1rem;
+}
+
+ol, ul {
+    margin-bottom: 16px;
+}
+
+hr {
+    width: 100%;
+    float: left;
+    border: 0.0625rem solid var(--foreground-color);
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+blockquote {
+    padding-left: 0.5rem;
+    border-left: 0.125rem solid var(--foreground-color);
+}
+
+a:link {
+    color: var(--link-color);
+    padding: 0 0.125rem;
+    transition: 0.25s;
+    text-decoration: none;
+}
+
+a:hover {
+    border-radius: 0.125rem;
+    background-color: var(--link-hover-color);
+}
+
+a:visited,
+a:active {
+    color: var(--link-color);
+}
+
+a.blog-link:link {
+    color: var(--link-color);
+    transition: 0.25s;
+    text-decoration: none;
+}
+
+a.blog-link:hover {
+    color: var(--foreground-color);
+    background: none;
+}
+
+a.blog-link:visited,
+a.blog-link:active {
+    color: var(--link-color);
+}
+
+p.disappear {
+    background: -webkit-linear-gradient(var(--foreground-color), var(--paper-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

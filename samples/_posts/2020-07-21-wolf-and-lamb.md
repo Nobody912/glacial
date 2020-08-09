@@ -5,7 +5,7 @@ excerpt: >
     Once upon a time a Wolf was lapping at a spring on a hillside, when, looking up, what should he see but a Lamb just beginning to drink a little lower down. ‘There’s my supper ’ thought he, ‘if only I can find some excuse to seize it.’
 ---
 # The Wolf and the Lamb
-#### _Aesop_
+_Aesop_
 
 <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Once upon a time a Wolf was lapping at a spring on a hillside, when, looking up, what should he see but a Lamb just beginning to drink a little lower down. ‘There’s my supper ’ thought he, ‘if only I can find some excuse to seize it.’ Then he called out to the Lamb, ‘How dare you muddle the water from which I am drinking?’

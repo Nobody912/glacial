@@ -4,6 +4,7 @@ td {
     font-family: var(--monospace-font-family);
     font-size: 0.75rem;
     border: 0.125em solid var(--foreground-color);
+    border-collapse: collapse;
     color: var(--foreground-color);
     table-layout: fixed;
     width: 100%;

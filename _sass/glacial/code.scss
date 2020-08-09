@@ -1,10 +1,24 @@
 code {
     font-family: var(--monospace-font-family);
+    font-size: 0.825rem;
+    padding: 0.25rem 0.25rem 0.25rem 0.25rem;
     border-radius: 0.25rem;
+    background: var(--code-background-color);
+}
+
+.hljs,
+.hljs-function,
+.hljs-subst,
+.hljs-params,
+.hljs-attribute,
+.hljs-variable,
+.hljs-template-variable {
+    color: var(--code-foreground-color) !important;
+    background: var(--code-background-color) !important;
 }
 
 .highlighter-rouge {
-    color: var(--code-block-color);
+    color: var(--code-foreground-color);
     border-radius: 0.25rem;
     padding: 0.25rem 0.25rem 0.25rem 0.25rem;
     line-height: 1rem;

@@ -2,10 +2,10 @@
     {% if site.social %}
         {% for service in site.social %}
             {% if service.id and service.href %}
-                <a href="{{ service.href }}{{ service.id }}" title="{{ service.title }}"><i class="{{ service.fa-icon }}"></i></a>
+                <a class="social" href="{{ service.href }}{{ service.id }}" title="{{ service.title }}"><i class="{{ service.fa-icon }}"></i></a>
             {% endif %}
         {% endfor %}
     {% endif %}
     <br>
-    <p style="font-family: var(--heading-font-family);">{{ site.copyright }}</p>
+    {{ site.copyright }}
 </footer>
