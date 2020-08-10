@@ -13,6 +13,8 @@ header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  z-index: 1;
+  box-shadow: 0 0 6px #000000;
 }
 
 a.logo {
@@ -81,6 +83,10 @@ a.logo:hover {
   background-color: var(--menu-background-color);
   overflow-x: hidden;
   transition: all 0.5s ease-in-out 0s;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+  animation-duration: 0.5s;
 }
 
 .overlay-active {
