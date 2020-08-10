@@ -2,13 +2,13 @@ table,
 th,
 td {
     font-family: var(--monospace-font-family);
-    font-size: 0.75rem;
+    font-size: 1em;
     border: 0.125em solid var(--foreground-color);
     border-collapse: collapse;
     color: var(--foreground-color);
     table-layout: fixed;
     width: 100%;
-    margin-bottom: 16px;
+    margin-bottom: 1em;
 }
 
 th,
