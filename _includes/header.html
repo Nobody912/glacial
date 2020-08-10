@@ -21,13 +21,17 @@
             {% endfor %}
         </ul>
     </nav>
-    <label class="theme-switch" for="checkbox">
-        <input type="checkbox" id="checkbox" />
-        <i class="wi wi-day-sunny checked"></i>
-        <i class="fas fa-moon unchecked"></i>
-    </label>
+    <div>
+        <label class="theme-switch" for="checkbox">
+            <input type="checkbox" id="checkbox" />
+            <i class="wi wi-day-sunny checked"></i>
+            <i class="fas fa-moon unchecked"></i>
+        </label>
+    </div>
     <script src="{{ "/assets/js/dark-mode.js" | relative_url }}"></script>
-    <i class="fas fa-bars menu"></i>
+    <div class="menu">
+        <i class="fas fa-bars"></i>
+    </div>
 </header>
 
 <div id="mobile-menu" class="overlay">
