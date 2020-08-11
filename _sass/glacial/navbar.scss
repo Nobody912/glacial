@@ -79,24 +79,16 @@ a.logo:hover {
   height: 0%;
   z-index: 1;
   left: 0;
-  top: 0;
+  top: 64;
   background-color: var(--menu-background-color);
   overflow-x: hidden;
   transition: all 0.5s ease-in-out 0s;
-  animation-name: fadeInOpacity;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-in-out;
-  animation-duration: 0.5s;
 }
 
 .overlay-active {
-  height: 100%;
-  opacity: 1;
-  animation-name: fadeInOpacity;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-in-out;
-  animation-duration: 0.5s;
+  height: calc(100% - 64px);
 }
+
 
 .overlay-content {
   display: flex;
