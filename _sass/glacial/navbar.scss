@@ -70,7 +70,7 @@ a.logo:hover {
 
 .menu {
   display: none;
-  margin: 0 1rem;
+  margin: 0 0 0 1rem;
   color: var(--menu-foreground-color);
 }
 
@@ -79,7 +79,7 @@ a.logo:hover {
   height: 0%;
   z-index: 1;
   left: 0;
-  top: 64;
+  top: 0;
   background-color: var(--menu-background-color);
   overflow-x: hidden;
   transition: all 0.5s ease-in-out 0s;
