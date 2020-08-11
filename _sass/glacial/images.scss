@@ -25,6 +25,15 @@ img.inline-right {
     width: 50%;
 }
 
+a.gallery {
+    margin: 0;
+    padding: 0;
+}
+
+a.gallery:hover {
+    background: none;
+}
+
 img.gallery {
     height: 100%;
     -o-object-fit: cover;
