@@ -8,7 +8,7 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 0.5rem 1rem;
+  padding: 1em 1em;
   background-color: var(--menu-background-color);
   position: -webkit-sticky;
   position: sticky;
@@ -22,8 +22,8 @@ a.logo {
   align-items: center;
   font-family: var(--heading-font-family);
   font-weight: 700;
-  font-size: 2rem;
-  line-height: 2rem;
+  font-size: 2em;
+  line-height: 1em;
   color: var(--menu-foreground-color);
   text-transform: uppercase;
   margin-right: auto;
@@ -44,15 +44,15 @@ a.logo {
 .overlay-content a {
   font-family: Futura PT;
   font-weight: 300;
-  font-size: 1.25rem;
-  letter-spacing: 0.125rem;
+  font-size: 0.75em;
+  letter-spacing: 0.1875em;
   text-transform: uppercase;
   color: var(--menu-foreground-color);
   text-decoration: none;
 }
 
 .nav-links li {
-  padding: 0 1rem;
+  padding: 0 0.5em;
 }
 
 .nav-links li a {
@@ -79,7 +79,7 @@ a.logo:hover {
   height: 0%;
   z-index: 1;
   left: 0;
-  top: 48;
+  top: 64;
   background-color: var(--menu-background-color);
   overflow-x: hidden;
   transition: all 0.5s ease-in-out 0s;

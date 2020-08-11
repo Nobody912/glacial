@@ -1,16 +1,15 @@
+.fa-moon,
+.wi-day-sunny,
+.fa-bars {
+    padding: 0 0.5em;
+}
+
+.fa-bars {
+    margin-top: 0.1875em;
+}
+
 .fa-moon:hover,
 .wi-day-sunny:hover,
 .fa-bars:hover {
     color: var(--highlight-color);
-}
-
-.fa-moon,
-.wi-day-sunny {
-    margin-bottom: 0.1825rem;
-    font-size: 1rem;
-    width: 2rem;
-}
-
-.fa-bars {
-    font-size: 1.25rem;
 }
