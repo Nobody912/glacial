@@ -5,7 +5,8 @@ h4,
 h5,
 h6 {
     font-family: var(--heading-font-family);
-    font-weight: 700;
+    font-weight: 400;
+    letter-spacing: 0.1875em;
     color: var(--foreground-color);
     text-transform: uppercase;
 }
